@@ -1,0 +1,143 @@
+0	00:10:55.564	EA31337 EURUSD,M1: == New hour: 0
+0	00:11:00.812	EA31337 EURUSD,M1: == New day (day of month: 24; day of year: 358) ==
+0	00:11:00.812	EA31337 EURUSD,M1: Daily max: Tick: 6.1; Spread: 90; Max orders: 7; Loss: 0; Profit: 0; Equity: 126.68; Balance: 121.01; 
+0	00:11:00.812	EA31337 EURUSD,M1: Daily SAR stats: Period: 0, Buy: 213 / Sell: 172; Period: 1, Buy: 102 / Sell: 140; Period: 2, Buy: 169 / Sell: 216; Period: 3, Buy: 115 / Sell: 270; Period: 4, Buy: 0 / Sell: 0; Period: 5, Buy: 0 / Sell: 0; Period: 6, Buy: 0 / Sell: 0; Period: 7, Buy: 0 / Sell: 0; Period: 8, Buy: 0 / Sell: 0; 
+0	00:11:00.812	EA31337 EURUSD,M1: Daily strategy stats: 
+0	01:00:13.518	EA31337 EURUSD,M1: == New hour: 1
+0	02:01:05.768	EA31337 EURUSD,M1: == New hour: 2
+0	02:53:19.640	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09317; Bid: 1.09290; Spread: 27 points = 2.7 pips; 
+0	02:53:34.003	EA31337 EURUSD,M1: ExecuteOrder(): OrderSend(): error = invalid price
+0	02:53:34.003	EA31337 EURUSD,M1: Error: OrderSend(EURUSD, 1, 0.010000, 1.092900, 50.000000, 1.097170, 1.091220, | spread: 2.7, 31349, 0, 0)
+0	02:53:34.263	EA31337 EURUSD,M1: ExecuteOrder(): Account Details: Time: 2015.12.24 02:53:03; Account Balance: ý102.64; Account Equity: ý104.95; Used Margin: ý16.00; Free Margin: ý88.95; No of Orders: 4 (BUY/SELL: 2/2); Risk Ratio: 0.7
+0	02:53:34.263	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09317; Bid: 1.09290; Spread: 27 points = 2.7 pips; 
+0	02:53:34.263	EA31337 EURUSD,M1: #7899080 2015.12.23 20:03:30 buy 0.01 EURUSD 1.09127 1.08698 1.09298 1.09284 0.00 0.00 1.05 | spread: 2.6 31350
+0	02:53:34.360	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09312; Bid: 1.09285; Spread: 27 points = 2.7 pips; 
+2	02:53:36.795	EA31337 EURUSD,M1: open #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 ok
+0	02:53:36.795	EA31337 EURUSD,M1: #7904117 2015.12.24 02:53:26 buy 0.01 EURUSD 1.09312 1.08885 0.00000 1.09285 0.00 0.00 -0.18 | spread: 2.7 31350
+0	02:53:36.795	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7904117; Time: 2015.12.24 02:53:03; Comment: | spread: 2.7; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09312; Close Price: 1.09285; Take Profit: -0.18; Stop Loss: 1.0889; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 02:53:03; Account Balance: ý102.64; Account Equity: ý104.79; Used Margin: ý24.00; Free Margin: ý80.79; No of Orders: 5 (BUY/SELL: 3/2); Risk Ratio: 0.7
+0	02:53:46.965	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+0	02:55:10.747	EA31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	02:56:23.058	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09344; Bid: 1.09318; Spread: 26 points = 2.6 pips; 
+0	02:56:25.013	EA31337 EURUSD,M1: ExecuteOrder(): OrderSend(): error = invalid price
+0	02:56:25.013	EA31337 EURUSD,M1: Error: OrderSend(EURUSD, 0, 0.010000, 1.093440, 50.000000, 1.089180, 1.097440, | spread: 2.7, 31363, 0, 0)
+0	02:56:25.013	EA31337 EURUSD,M1: ExecuteOrder(): Account Details: Time: 2015.12.24 02:56:07; Account Balance: ý103.79; Account Equity: ý104.88; Used Margin: ý16.00; Free Margin: ý88.88; No of Orders: 4 (BUY/SELL: 2/2); Risk Ratio: 0.7
+0	02:56:25.013	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09344; Bid: 1.09318; Spread: 26 points = 2.6 pips; 
+0	02:56:25.013	EA31337 EURUSD,M1: #7904117 2015.12.24 02:53:26 buy 0.01 EURUSD 1.09312 1.08885 0.00000 1.09319 0.00 0.00 0.04 | spread: 2.7 31350
+0	02:56:25.440	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09345; Bid: 1.09319; Spread: 26 points = 2.6 pips; 
+2	02:56:25.890	EA31337 EURUSD,M1: open #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09745 ok
+0	02:56:25.890	EA31337 EURUSD,M1: #7904122 2015.12.24 02:56:15 buy 0.01 EURUSD 1.09345 1.08919 1.09745 1.09319 0.00 0.00 -0.17 | spread: 2.7 31364
+0	02:56:25.890	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7904122; Time: 2015.12.24 02:56:07; Comment: | spread: 2.7; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09345; Close Price: 1.09319; Take Profit: -0.17; Stop Loss: 1.0892; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 02:56:07; Account Balance: ý103.79; Account Equity: ý104.71; Used Margin: ý24.00; Free Margin: ý80.71; No of Orders: 5 (BUY/SELL: 3/2); Risk Ratio: 0.7
+0	02:56:29.447	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+2	02:57:04.319	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09748 ok
+0	02:57:04.319	EA31337 EURUSD,M1: TaskProcessList(): Processed 2 jobs (0 run, 2 failed (0 removed)).
+2	02:57:58.702	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09755 ok
+0	02:57:58.702	EA31337 EURUSD,M1: TaskProcessList(): Processed 2 jobs (0 run, 2 failed (0 removed)).
+0	03:00:34.369	EA31337 EURUSD,M1: == New hour: 3
+0	03:00:36.679	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09346; Bid: 1.09319; Spread: 27 points = 2.7 pips; 
+2	03:00:38.567	EA31337 EURUSD,M1: open #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09389 ok
+0	03:00:38.567	EA31337 EURUSD,M1: #7904147 2015.12.24 03:00:28 buy 0.01 EURUSD 1.09346 1.08919 1.09389 1.09319 0.00 0.00 -0.18 | spread: 2.7 31349
+0	03:00:38.567	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7904147; Time: 2015.12.24 03:00:24; Comment: | spread: 2.7; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09346; Close Price: 1.09319; Take Profit: -0.18; Stop Loss: 1.0892; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 03:00:24; Account Balance: ý103.79; Account Equity: ý104.50; Used Margin: ý32.00; Free Margin: ý72.50; No of Orders: 6 (BUY/SELL: 4/2); Risk Ratio: 0.7
+0	03:00:38.567	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+2	03:01:16.547	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09756 ok
+0	03:01:16.547	EA31337 EURUSD,M1: TaskProcessList(): Processed 2 jobs (0 run, 2 failed (0 removed)).
+2	03:01:51.413	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09766 ok
+2	03:01:51.576	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09398 ok
+0	03:01:51.576	EA31337 EURUSD,M1: TaskProcessList(): Processed 2 jobs (0 run, 2 failed (0 removed)).
+2	03:03:13.834	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09767 ok
+2	03:03:14.520	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09409 ok
+0	03:03:14.520	EA31337 EURUSD,M1: TaskProcessList(): Processed 2 jobs (0 run, 2 failed (1 removed)).
+2	03:03:25.655	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09775 ok
+2	03:03:25.979	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09418 ok
+0	03:03:25.979	EA31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (1 removed)).
+2	03:07:06.434	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09783 ok
+2	03:07:06.694	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09433 ok
+2	03:10:33.295	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09794 ok
+2	03:10:33.522	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09457 ok
+2	03:13:01.966	EA31337 EURUSD,M1: modify #7904147 buy 0.01 EURUSD at 1.09346 sl: 1.08919 tp: 1.09462 ok
+2	03:13:33.390	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09806 ok
+2	03:14:31.674	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09816 ok
+2	03:21:53.872	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09417 ok
+2	03:25:17.506	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09426 ok
+2	03:26:23.042	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09428 ok
+2	03:32:13.961	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09439 ok
+2	03:39:35.962	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09448 ok
+2	03:39:53.142	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09449 ok
+2	03:45:36.755	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09460 ok
+2	03:49:13.933	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09470 ok
+2	03:51:34.980	EA31337 EURUSD,M1: modify #7904117 buy 0.01 EURUSD at 1.09312 sl: 1.08885 tp: 1.09476 ok
+0	04:00:14.449	EA31337 EURUSD,M1: == New hour: 4
+0	05:00:55.670	EA31337 EURUSD,M1: == New hour: 5
+0	06:07:38.111	EA31337 EURUSD,M1: == New hour: 6
+0	07:00:56.018	EA31337 EURUSD,M1: == New hour: 7
+2	07:30:33.330	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09826 ok
+2	07:44:28.753	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09862 ok
+0	07:45:32.972	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09479; Bid: 1.09451; Spread: 28 points = 2.8 pips; 
+2	07:45:37.675	EA31337 EURUSD,M1: open #7904921 sell 0.01 EURUSD at 1.09451 sl: 1.09879 tp: 1.09247 ok
+0	07:45:37.675	EA31337 EURUSD,M1: #7904921 2015.12.24 07:45:26 sell 0.01 EURUSD 1.09451 1.09879 1.09247 1.09479 0.00 0.00 -0.19 | spread: 2.7 31350
+0	07:45:37.756	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7904921; Time: 2015.12.24 07:44:30; Comment: | spread: 2.7; Commision: 0; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.09451; Close Price: 1.09479; Take Profit: -0.19; Stop Loss: 1.0988; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 07:44:30; Account Balance: ý101.75; Account Equity: ý106.50; Used Margin: ý24.00; Free Margin: ý82.50; No of Orders: 5 (BUY/SELL: 3/2); Risk Ratio: 0.6
+0	07:45:37.801	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+2	07:48:27.956	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09867 ok
+2	07:54:26.302	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09897 ok
+2	07:54:26.980	EA31337 EURUSD,M1: modify #7904921 sell 0.01 EURUSD at 1.09451 sl: 1.09879 tp: 1.09244 ok
+0	07:55:19.821	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09507; Bid: 1.09480; Spread: 27 points = 2.7 pips; 
+2	07:55:21.273	EA31337 EURUSD,M1: open #7904970 buy 0.01 EURUSD at 1.09507 sl: 1.09080 tp: 1.09523 ok
+0	07:55:21.342	EA31337 EURUSD,M1: #7904970 2015.12.24 07:55:10 buy 0.01 EURUSD 1.09507 1.09080 1.09523 1.09480 0.00 0.00 -0.19 | spread: 2.7 31349
+0	07:55:21.342	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7904970; Time: 2015.12.24 07:55:05; Comment: | spread: 2.7; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09507; Close Price: 1.09480; Take Profit: -0.19; Stop Loss: 1.0908; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 07:55:05; Account Balance: ý102.85; Account Equity: ý106.50; Used Margin: ý24.00; Free Margin: ý82.50; No of Orders: 5 (BUY/SELL: 3/2); Risk Ratio: 0.6
+0	07:55:21.374	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+2	07:56:06.855	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09908 ok
+2	07:56:07.082	EA31337 EURUSD,M1: modify #7904921 sell 0.01 EURUSD at 1.09451 sl: 1.09879 tp: 1.09236 ok
+2	07:59:34.995	EA31337 EURUSD,M1: modify #7904970 buy 0.01 EURUSD at 1.09507 sl: 1.09080 tp: 1.09532 ok
+0	08:00:22.965	EA31337 EURUSD,M1: == New hour: 8
+0	08:00:51.774	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09487; Bid: 1.09460; Spread: 27 points = 2.7 pips; 
+2	08:00:52.778	EA31337 EURUSD,M1: open #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.09887 ok
+0	08:00:52.778	EA31337 EURUSD,M1: #7905004 2015.12.24 08:00:41 buy 0.01 EURUSD 1.09486 1.09060 1.09887 1.09461 0.00 0.00 -0.17 | spread: 2.5 31364
+0	08:00:52.778	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7905004; Time: 2015.12.24 08:00:12; Comment: | spread: 2.5; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09486; Close Price: 1.09461; Take Profit: -0.17; Stop Loss: 1.0906; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 08:00:12; Account Balance: ý102.85; Account Equity: ý106.19; Used Margin: ý32.00; Free Margin: ý74.19; No of Orders: 6 (BUY/SELL: 4/2); Risk Ratio: 0.8
+0	08:02:24.948	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+2	08:04:07.998	EA31337 EURUSD,M1: modify #7904921 sell 0.01 EURUSD at 1.09451 sl: 1.09879 tp: 1.09235 ok
+2	08:49:22.552	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09921 ok
+2	08:49:22.911	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.09921 ok
+2	08:53:13.052	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09951 ok
+2	08:53:13.214	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.09951 ok
+0	08:53:57.697	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09563; Bid: 1.09536; Spread: 27 points = 2.7 pips; 
+2	08:53:58.318	EA31337 EURUSD,M1: open #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.09963 ok
+0	08:53:58.318	EA31337 EURUSD,M1: #7905250 2015.12.24 08:53:47 buy 0.01 EURUSD 1.09563 1.09136 1.09963 1.09536 0.00 0.00 -0.18 | spread: 2.8 31363
+0	08:53:58.318	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7905250; Time: 2015.12.24 08:53:41; Comment: | spread: 2.8; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09563; Close Price: 1.09536; Take Profit: -0.18; Stop Loss: 1.0914; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 08:53:41; Account Balance: ý100.15; Account Equity: ý107.07; Used Margin: ý32.00; Free Margin: ý75.07; No of Orders: 5 (BUY/SELL: 4/1); Risk Ratio: 0.8
+0	08:54:07.512	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Bands M30: Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	08:54:40.194	EA31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.09552; Bid: 1.09525; Spread: 27 points = 2.7 pips; 
+2	08:54:40.401	EA31337 EURUSD,M1: open #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.09952 ok
+0	08:54:40.401	EA31337 EURUSD,M1: #7905254 2015.12.24 08:54:29 buy 0.01 EURUSD 1.09552 1.09125 1.09952 1.09525 0.00 0.00 -0.18 | spread: 2.8 31409
+0	08:54:40.401	EA31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket: 7905254; Time: 2015.12.24 08:53:41; Comment: | spread: 2.8; Commision: 0; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.09552; Close Price: 1.09525; Take Profit: -0.18; Stop Loss: 1.0913; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.12.24 08:53:41; Account Balance: ý100.15; Account Equity: ý106.70; Used Margin: ý40.00; Free Margin: ý66.70; No of Orders: 6 (BUY/SELL: 5/1); Risk Ratio: 0.8
+0	08:54:40.401	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+0	09:06:11.368	EA31337 EURUSD,M1: == New hour: 9
+2	09:07:45.015	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.09976 ok
+2	09:07:45.262	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.09976 ok
+2	09:07:45.424	EA31337 EURUSD,M1: modify #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.09976 ok
+2	09:07:45.630	EA31337 EURUSD,M1: modify #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.09976 ok
+2	09:12:01.173	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.10004 ok
+2	09:12:01.416	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.10004 ok
+2	09:12:01.619	EA31337 EURUSD,M1: modify #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.10004 ok
+2	09:12:01.867	EA31337 EURUSD,M1: modify #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.10004 ok
+2	09:14:50.256	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.10008 ok
+2	09:14:51.103	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.10008 ok
+2	09:14:51.428	EA31337 EURUSD,M1: modify #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.10008 ok
+2	09:14:51.651	EA31337 EURUSD,M1: modify #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.10008 ok
+2	09:22:36.153	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.10036 ok
+2	09:22:36.519	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.10036 ok
+2	09:22:36.843	EA31337 EURUSD,M1: modify #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.10036 ok
+2	09:22:37.010	EA31337 EURUSD,M1: modify #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.10036 ok
+2	09:27:31.106	EA31337 EURUSD,M1: modify #7904122 buy 0.01 EURUSD at 1.09345 sl: 1.08919 tp: 1.10068 ok
+2	09:27:31.463	EA31337 EURUSD,M1: modify #7905004 buy 0.01 EURUSD at 1.09486 sl: 1.09060 tp: 1.10068 ok
+2	09:27:31.666	EA31337 EURUSD,M1: modify #7905250 buy 0.01 EURUSD at 1.09563 sl: 1.09136 tp: 1.10068 ok
+2	09:27:32.072	EA31337 EURUSD,M1: modify #7905254 buy 0.01 EURUSD at 1.09552 sl: 1.09125 tp: 1.10068 ok
+0	10:03:37.594	EA31337 EURUSD,M1: == New hour: 10
+0	11:04:44.344	EA31337 EURUSD,M1: == New hour: 11
+0	12:08:46.561	EA31337 EURUSD,M1: == New hour: 12
+0	12:28:01.966	EA31337 EURUSD,M1: OpenOrderIsAllowed(): Maximum open and pending orders reached the limit (MaxOrders).
+0	13:02:15.734	EA31337 EURUSD,M1: == New hour: 13
+0	14:02:59.443	EA31337 EURUSD,M1: == New hour: 14
+0	14:31:57.753	EA31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.12.24 14:20:22; Account Balance: ý100.15; Account Equity: ý103.79; Used Margin: ý40.00; Free Margin: ý63.79; No of Orders: 6 (BUY/SELL: 5/1); Risk Ratio: 0.6Stats: Alligator M1: 16%, Alligator M5: 16%, Bands M30: 32%, DeMarker M5: 16%, Envelopes M1: 16%, Envelopes M30: 16%, MA M30: 16%, MACD M5: 16%, MACD M15: 16%, RSI M5: 16%, RSI M30: 16%, SAR M15: 16%, WPR M1: 16%, 
+Open Orders: 6 +5/-1 [0.06 lots] (other: 0)
+0	14:31:57.793	EA31337 EURUSD,M1: UpdateStats(): Market sudden drop of 8.2 pips detected!
+0	15:01:38.497	EA31337 EURUSD,M1: == New hour: 15
+0	16:04:25.965	EA31337 EURUSD,M1: == New hour: 16
+0	17:02:39.813	EA31337 EURUSD,M1: == New hour: 17

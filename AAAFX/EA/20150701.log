@@ -1,0 +1,809 @@
+0	01:11:08.844	Expert 31337 EURUSD,M1: loaded successfully
+0	01:11:17.493	31337 EURUSD,M1 inputs: ____EA_Parameters__=-----------------------------------------; EACloseOnMarketChange=false; EAMinimalizeLosses=false; MaxOrderPriceSlippage=5; __EA_Trailing_Parameters__=-- Settings for trailing stops --; TrailingStop=40; DefaultTrailingStopMethod=1; TrailingStopOneWay=true; TrailingProfit=35; DefaultTrailingProfitMethod=0; TrailingProfitOneWay=true; TrailingStopAddPerMinute=0.0; __EA_Order_Parameters__=-- Profit/Loss settings (set 0 for auto) --; EALotSize=0.0; MaxOrders=0; MaxOrdersPerType=0; EATakeProfit=0.0; EAStopLoss=0.0; RiskRatio=0.0; MinimumIntervalSec=0; __Strategy_Boosting_Parameters__=-- Strategy boosting (set 1.0 to default) --; BestDailyStrategyMultiplierFactor=1.0; BestWeeklyStrategyMultiplierFactor=1.0; BestMonthlyStrategyMultiplierFactor=2.0; WorseDailyStrategyDividerFactor=1.0; WorseWeeklyStrategyDividerFactor=2.0; WorseMonthlyStrategyDividerFactor=2.0; ____MA_Parameters__=-- Settings for the Moving Average indicator --; MA1_Enabled=false; MA5_Enabled=false; MA15_Enabled=false; MA_Shift=0; 
+0	01:11:25.311	31337 EURUSD,M1: EA initializing...
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): 31337.mq4
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): Predefined variables: Bars = 65986, Ask = 1.1142, Bid = 1.1142, Digits = 5, Point = 0.00001
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): Market info: Symbol: EURUSD, min lot = 0.01, max lot = 1000, lot step = 0.01, margin required = 6.3694, stop level = 40, last volume: 22
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): Account info: type: Live, leverage: 100
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): Broker info: Triple A Investment Services S.A., pip size = 0.0001, points per pip = 10, pip precision = 4, volume precision = 2
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): EA info: Lot size = 0.01; Max orders = 35; Max orders per type = 1; No of strategies = 13 of 41
+0	01:11:25.473	31337 EURUSD,M1: OnInit(): Time: Hour of day = 1, Day of week = 3, day of month = 1; day of year = 182
+0	01:11:25.571	31337 EURUSD,M1: OnInit(): Account Details: Time: 2015.07.01 01:11:17; Account Balance: 35.29 GBP; Account Equity: 35.29 GBP; Free Margin: 35.29 GBP; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 0.2
+0	01:11:25.571	31337 EURUSD,M1: initialized
+0	01:12:05.570	31337 EURUSD,M1: uninit reason 5
+0	01:12:05.570	31337 EURUSD,M1: Calling OnDeinit()
+0	01:12:05.570	31337 EURUSD,M1: OnDeinit():EA deinitializing, reason: Input-parameter was changed. (code: 5)
+0	01:12:05.570	31337 EURUSD,M1: Account Details: Time: 2015.07.01 01:11:57; Account Balance: 35.29 GBP; Account Equity: 35.29 GBP; Free Margin: 35.29 GBP; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 0.2
+0	01:12:05.582	31337 EURUSD,M1: Initial deposit:                            (non-string passed)0.00
+0	01:12:05.582	31337 EURUSD,M1: Total net profit:                           GBP0.00
+0	01:12:05.582	31337 EURUSD,M1: Gross profit:                               GBP0.00
+0	01:12:05.582	31337 EURUSD,M1: Gross loss:                                 GBP0.00
+0	01:12:05.582	31337 EURUSD,M1: Expected payoff:                            0.00
+0	01:12:05.582	31337 EURUSD,M1: Absolute drawdown:                          0.00
+0	01:12:05.582	31337 EURUSD,M1: Maximal drawdown:                           0.0 (0.0%)
+0	01:12:05.582	31337 EURUSD,M1: Relative drawdown:                          (0.0%) 0.0
+0	01:12:05.582	31337 EURUSD,M1: Trades total                                0
+0	01:12:05.582	31337 EURUSD,M1: Largest profit trade:                       0
+0	01:12:05.582	31337 EURUSD,M1: Largest loss trade:                         -0
+0	01:12:05.582	31337 EURUSD,M1: Average consecutive wins:                   0
+0	01:12:05.582	31337 EURUSD,M1: Average consecutive losses:                 0
+0	01:12:05.582	31337 EURUSD,M1: Maximum consecutive wins (profit in money): 0 (0)
+0	01:12:05.582	31337 EURUSD,M1: Maximum consecutive losses (loss in money): 0 (-0)
+0	01:12:05.582	31337 EURUSD,M1: Maximal consecutive profit (count of wins): 0 (0)
+0	01:12:05.582	31337 EURUSD,M1: Maximal consecutive loss (count of losses): -0 (0)
+0	01:12:05.582	31337 EURUSD,M1: Strategy stats: 
+0	01:12:05.582	31337 EURUSD,M1: 
+0	01:12:05.582	31337 EURUSD,M1: OnDeinit(): Saved report as: 2015.07.01 01:11_31337_Report.txt
+0	01:12:05.879	31337 EURUSD,M1: EA initializing...
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): 31337.mq4
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Predefined variables: Bars = 65986, Ask = 1.1142, Bid = 1.1142, Digits = 5, Point = 0.00001
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Market info: Symbol: EURUSD, min lot = 0.01, max lot = 1000, lot step = 0.01, margin required = 6.3694, stop level = 40, last volume: 72
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Account info: type: Live, leverage: 100
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Broker info: Triple A Investment Services S.A., pip size = 0.0001, points per pip = 10, pip precision = 4, volume precision = 2
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): EA info: Lot size = 0.01; Max orders = 35; Max orders per type = 1; No of strategies = 13 of 41
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Time: Hour of day = 1, Day of week = 3, day of month = 1; day of year = 182
+0	01:12:05.879	31337 EURUSD,M1: OnInit(): Account Details: Time: 2015.07.01 01:11:57; Account Balance: 35.29 GBP; Account Equity: 35.29 GBP; Free Margin: 35.29 GBP; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 0.2
+0	01:12:05.879	31337 EURUSD,M1: initialized
+0	01:12:05.944	31337 EURUSD,M1 inputs: ____EA_Parameters__=-----------------------------------------; EACloseOnMarketChange=false; EAMinimalizeLosses=false; MaxOrderPriceSlippage=5; __EA_Trailing_Parameters__=-- Settings for trailing stops --; TrailingStop=40; DefaultTrailingStopMethod=1; TrailingStopOneWay=true; TrailingProfit=35; DefaultTrailingProfitMethod=0; TrailingProfitOneWay=true; TrailingStopAddPerMinute=0.0; __EA_Order_Parameters__=-- Profit/Loss settings (set 0 for auto) --; EALotSize=0.0; MaxOrders=0; MaxOrdersPerType=0; EATakeProfit=0.0; EAStopLoss=0.0; RiskRatio=0.0; MinimumIntervalSec=0; __Strategy_Boosting_Parameters__=-- Strategy boosting (set 1.0 to default) --; BestDailyStrategyMultiplierFactor=1.0; BestWeeklyStrategyMultiplierFactor=1.0; BestMonthlyStrategyMultiplierFactor=2.0; WorseDailyStrategyDividerFactor=1.0; WorseWeeklyStrategyDividerFactor=2.0; WorseMonthlyStrategyDividerFactor=2.0; ____MA_Parameters__=-- Settings for the Moving Average indicator --; MA1_Enabled=false; MA5_Enabled=false; MA15_Enabled=false; MA_Shift=0; 
+0	01:12:26.865	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11413; Bid: 1.11409; Spread: 4 points = 0.4 pips; 
+2	01:12:27.457	31337 EURUSD,M1: open #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11797 ok
+0	01:12:27.457	31337 EURUSD,M1: #36042445 2015.07.01 01:12:19 sell 0.01 EURUSD 1.11406 1.11797 0.00000 1.11413 -0.13 0.00 -0.04 Bands M1 31358
+0	01:12:27.457	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36042445; Time: 2015.07.01 01:12:18; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11406; Close Price: 1.11413; Take Profit: -0.04; Stop Loss: 1.118; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 01:12:18; Account Balance: 35.29 GBP; Account Equity: 35.12 GBP; Free Margin: 28.75 GBP; No of Orders: 0 (BUY/SELL: 0/1); Risk Ratio: 0.2
+0	01:12:27.457	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11413; Bid: 1.11409; Spread: 4 points = 0.4 pips; 
+2	01:12:28.969	31337 EURUSD,M1: open #36042446 sell 0.01 EURUSD at 1.11406 sl: 1.11789 ok
+0	01:12:28.969	31337 EURUSD,M1: #36042446 2015.07.01 01:12:19 sell 0.01 EURUSD 1.11406 1.11789 0.00000 1.11413 -0.13 0.00 -0.04 Bands M5 31359
+0	01:12:29.128	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36042446; Time: 2015.07.01 01:12:20; Comment: Bands M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11406; Close Price: 1.11413; Take Profit: -0.04; Stop Loss: 1.1179; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 01:12:20; Account Balance: 35.29 GBP; Account Equity: 34.95 GBP; Free Margin: 22.21 GBP; No of Orders: 1 (BUY/SELL: 0/2); Risk Ratio: 0.2
+0	01:45:44.869	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11384; Bid: 1.11380; Spread: 4 points = 0.4 pips; 
+2	01:45:48.376	31337 EURUSD,M1: open #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11464 ok
+0	01:45:48.376	31337 EURUSD,M1: #36042621 2015.07.01 01:45:36 sell 0.01 EURUSD 1.11380 1.11464 0.00000 1.11383 -0.13 0.00 -0.02 SAR M5 31355
+0	01:45:48.376	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36042621; Time: 2015.07.01 01:45:39; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11380; Close Price: 1.11383; Take Profit: -0.02; Stop Loss: 1.1146; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 01:45:39; Account Balance: 35.29 GBP; Account Equity: 35.16 GBP; Free Margin: 16.05 GBP; No of Orders: 2 (BUY/SELL: 0/3); Risk Ratio: 0.2
+2	01:46:15.584	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11462 tp: 0.00000 ok
+2	01:55:47.514	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11458 tp: 0.00000 ok
+0	02:02:10.701	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	02:02:10.701	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11386; Bid: 1.11384; Spread: 2 points = 0.2 pips; 
+2	02:02:12.170	31337 EURUSD,M1: open #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11786 ok
+0	02:02:12.170	31337 EURUSD,M1: #36042657 2015.07.01 02:02:02 sell 0.01 EURUSD 1.11383 1.11786 0.00000 1.11388 -0.13 0.00 -0.03 Fractals M1 31374
+0	02:02:12.170	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36042657; Time: 2015.07.01 02:02:03; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11383; Close Price: 1.11388; Take Profit: -0.03; Stop Loss: 1.1179; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 02:02:03; Account Balance: 35.29 GBP; Account Equity: 34.93 GBP; Free Margin: 9.45 GBP; No of Orders: 3 (BUY/SELL: 0/4); Risk Ratio: 0.2
+0	02:02:12.170	31337 EURUSD,M1: == New hour: 2
+0	02:05:19.748	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11402; Bid: 1.11397; Spread: 5 points = 0.5 pips; 
+2	02:05:23.196	31337 EURUSD,M1: open #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11802 ok
+0	02:05:23.196	31337 EURUSD,M1: #36042662 2015.07.01 02:05:12 sell 0.01 EURUSD 1.11393 1.11802 0.00000 1.11400 -0.13 0.00 -0.04 Fractals M5 31375
+0	02:05:23.196	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36042662; Time: 2015.07.01 02:05:12; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11393; Close Price: 1.11400; Take Profit: -0.04; Stop Loss: 1.118; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 02:05:12; Account Balance: 35.29 GBP; Account Equity: 34.46 GBP; Free Margin: 2.61 GBP; No of Orders: 4 (BUY/SELL: 0/5); Risk Ratio: 0.2
+0	02:08:54.995	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	02:08:56.110	31337 EURUSD,M1: modify #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11801 tp: 0.00000 ok
+2	02:13:03.552	31337 EURUSD,M1: modify #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11799 tp: 0.00000 ok
+2	02:50:14.841	31337 EURUSD,M1: modify #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11790 tp: 0.00000 ok
+2	02:52:43.392	31337 EURUSD,M1: modify #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11787 tp: 0.00000 ok
+2	02:52:43.915	31337 EURUSD,M1: modify #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11798 tp: 0.00000 ok
+2	02:58:56.894	31337 EURUSD,M1: modify #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11785 tp: 0.00000 ok
+2	02:58:57.516	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11785 tp: 0.00000 ok
+0	03:02:12.989	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	03:02:13.836	31337 EURUSD,M1: modify #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11782 tp: 0.00000 ok
+2	03:02:14.618	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11782 tp: 0.00000 ok
+2	03:02:15.235	31337 EURUSD,M1: modify #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11797 tp: 0.00000 ok
+0	03:02:15.235	31337 EURUSD,M1: == New hour: 3
+0	03:03:14.081	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	04:03:21.438	31337 EURUSD,M1: == New hour: 4
+0	04:28:32.421	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	04:36:05.004	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11457 tp: 0.00000 ok
+0	04:43:15.191	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	04:43:15.895	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11456 tp: 0.00000 ok
+0	04:48:04.790	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	05:04:32.816	31337 EURUSD,M1: == New hour: 5
+2	05:09:36.840	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11455 tp: 0.00000 ok
+2	05:10:25.857	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11454 tp: 0.00000 ok
+0	05:46:46.994	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	06:00:12.231	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	06:00:12.231	31337 EURUSD,M1: == New hour: 6
+0	06:01:13.515	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	06:02:14.763	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11263; Bid: 1.11257; Spread: 6 points = 0.6 pips; 
+2	06:02:15.184	31337 EURUSD,M1: open #36043469 sell 0.01 EURUSD at 1.11254 sl: 1.11473 ok
+0	06:02:15.184	31337 EURUSD,M1: #36043469 2015.07.01 06:02:05 sell 0.01 EURUSD 1.11254 1.11473 0.00000 1.11263 -0.13 0.00 -0.06 MACD M15 31344
+0	06:02:15.184	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36043469; Time: 2015.07.01 06:02:05; Comment: MACD M15; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11254; Close Price: 1.11263; Take Profit: -0.06; Stop Loss: 1.1147; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 06:02:05; Account Balance: 35.29 GBP; Account Equity: 38.60 GBP; Free Margin: 0.38 GBP; No of Orders: 5 (BUY/SELL: 0/6); Risk Ratio: 0.3
+0	06:02:15.184	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	06:03:13.627	31337 EURUSD,M1: modify #36043469 sell 0.01 EURUSD at 1.11254 sl: 1.11471 tp: 0.00000 ok
+0	06:03:13.627	31337 EURUSD,M1: 1
+2	06:03:14.244	31337 EURUSD,M1: close #36042445 sell 0.01 EURUSD at 1.11406 sl: 1.11782 at price 1.11244
+0	06:03:14.244	31337 EURUSD,M1: CloseOrder(): Closed order 36042445 with profit 1.18, reason: TaskRun(): 1; Order Details: Ticket:36042445; Time: 2015.07.01 06:03:04; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11406; Close Price: 1.11241; Take Profit: 1.05; Stop Loss: 1.1178; Swap: 0; Lot size: 0.01; 
+0	06:03:14.244	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	06:03:14.244	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 06:03:04; Account Balance: 36.19 GBP; Account Equity: 39.42 GBP; Free Margin: 7.57 GBP; No of Orders: 6 (BUY/SELL: 0/5); Risk Ratio: 0.3Stats: Bands M1: 16%, Fractals M1: 16%, Fractals M5: 16%, 
+Open Orders: 6 +0/-5 [0.05 lots] (other: 0)
+0	06:03:14.244	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [39.44/35.29]
+0	06:04:37.271	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	06:04:37.625	31337 EURUSD,M1: modify #36043469 sell 0.01 EURUSD at 1.11254 sl: 1.11470 tp: 0.00000 ok
+2	06:05:24.881	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11777 tp: 0.00000 ok
+2	06:05:25.371	31337 EURUSD,M1: modify #36043469 sell 0.01 EURUSD at 1.11254 sl: 1.11467 tp: 0.00000 ok
+2	06:06:10.828	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11772 tp: 0.00000 ok
+2	06:06:11.107	31337 EURUSD,M1: modify #36043469 sell 0.01 EURUSD at 1.11254 sl: 1.11466 tp: 0.00000 ok
+2	06:08:22.430	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11769 tp: 0.00000 ok
+2	06:09:14.462	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11764 tp: 0.00000 ok
+2	06:10:17.778	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11756 tp: 0.00000 ok
+0	06:10:17.778	31337 EURUSD,M1: 1
+2	06:10:18.228	31337 EURUSD,M1: close #36042446 sell 0.01 EURUSD at 1.11406 sl: 1.11789 at price 1.11214
+0	06:10:18.228	31337 EURUSD,M1: CloseOrder(): Closed order 36042446 with profit 1.35, reason: TaskRun(): 1; Order Details: Ticket:36042446; Time: 2015.07.01 06:10:08; Comment: Bands M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11406; Close Price: 1.11215; Take Profit: 1.22; Stop Loss: 1.1179; Swap: 0; Lot size: 0.01; 
+0	06:10:18.228	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	06:10:18.228	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 06:10:08; Account Balance: 37.28 GBP; Account Equity: 40.37 GBP; Free Margin: 14.88 GBP; No of Orders: 5 (BUY/SELL: 0/4); Risk Ratio: 0.3Stats: MACD M15: 20%, Bands M1: 20%, Fractals M1: 20%, Fractals M5: 20%, 
+Open Orders: 5 +0/-4 [0.04 lots] (other: 0)
+0	06:10:18.228	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [40.26/36.19]
+2	06:11:25.995	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11751 tp: 0.00000 ok
+0	06:11:25.995	31337 EURUSD,M1: 1
+2	06:11:26.526	31337 EURUSD,M1: close #36042662 sell 0.01 EURUSD at 1.11393 sl: 1.11797 at price 1.11167
+0	06:11:26.526	31337 EURUSD,M1: CloseOrder(): Closed order 36042662 with profit 1.58, reason: TaskRun(): 1; Order Details: Ticket:36042662; Time: 2015.07.01 06:11:16; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11393; Close Price: 1.11165; Take Profit: 1.45; Stop Loss: 1.118; Swap: 0; Lot size: 0.01; 
+0	06:11:26.526	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	06:11:26.526	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 06:11:16; Account Balance: 38.59 GBP; Account Equity: 41.56 GBP; Free Margin: 22.45 GBP; No of Orders: 4 (BUY/SELL: 0/3); Risk Ratio: 0.3Stats: MACD M15: 25%, Bands M1: 25%, Fractals M1: 25%, Fractals M5: 25%, 
+Open Orders: 4 +0/-3 [0.03 lots] (other: 0)
+0	06:11:26.526	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [41.53/37.28]
+2	06:12:36.429	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11744 tp: 0.00000 ok
+2	06:13:16.281	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11735 tp: 0.00000 ok
+2	06:14:31.590	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11728 tp: 0.00000 ok
+2	06:16:01.999	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11723 tp: 0.00000 ok
+2	06:16:15.850	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11717 tp: 0.00000 ok
+2	06:17:11.901	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11713 tp: 0.00000 ok
+2	06:18:19.328	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11709 tp: 0.00000 ok
+2	06:19:45.613	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11706 tp: 0.00000 ok
+2	06:20:14.639	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11701 tp: 0.00000 ok
+2	06:21:38.768	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11694 tp: 0.00000 ok
+2	06:23:12.375	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11690 tp: 0.00000 ok
+2	06:23:27.647	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11686 tp: 0.00000 ok
+2	06:24:21.191	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11683 tp: 0.00000 ok
+2	06:25:37.319	31337 EURUSD,M1: modify #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11680 tp: 0.00000 ok
+0	06:26:48.327	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11304; Bid: 1.11299; Spread: 5 points = 0.5 pips; 
+2	06:26:48.944	31337 EURUSD,M1: open #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11686 ok
+0	06:26:48.944	31337 EURUSD,M1: #36043701 2015.07.01 06:26:39 sell 0.01 EURUSD 1.11304 1.11686 0.00000 1.11313 -0.13 0.00 -0.05 Bands M1 31358
+0	06:26:48.944	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36043701; Time: 2015.07.01 06:26:39; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11304; Close Price: 1.11313; Take Profit: -0.05; Stop Loss: 1.1169; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 06:26:39; Account Balance: 38.59 GBP; Account Equity: 38.53 GBP; Free Margin: 13.05 GBP; No of Orders: 3 (BUY/SELL: 0/4); Risk Ratio: 0.2
+2	06:27:12.925	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11685 tp: 0.00000 ok
+0	07:00:19.808	31337 EURUSD,M1: == New hour: 7
+0	07:02:24.962	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	07:10:18.539	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11311; Bid: 1.11307; Spread: 4 points = 0.4 pips; 
+2	07:10:18.926	31337 EURUSD,M1: open #36044413 buy 0.01 EURUSD at 1.11314 sl: 1.10907 tp: 1.11377 ok
+0	07:10:18.926	31337 EURUSD,M1: #36044413 2015.07.01 07:10:09 buy 0.01 EURUSD 1.11314 1.10907 1.11377 1.11308 -0.13 0.00 -0.04 Fractals M5 31375
+0	07:10:18.926	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36044413; Time: 2015.07.01 07:10:09; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.11314; Close Price: 1.11308; Take Profit: -0.04; Stop Loss: 1.1091; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 07:10:09; Account Balance: 38.59 GBP; Account Equity: 38.35 GBP; Free Margin: 6.50 GBP; No of Orders: 4 (BUY/SELL: 1/4); Risk Ratio: 0.2
+0	07:11:15.489	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	07:13:10.082	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	07:23:18.926	31337 EURUSD,M1: 1
+2	07:23:19.417	31337 EURUSD,M1: close #36042657 sell 0.01 EURUSD at 1.11383 sl: 1.11680 at price 1.11091
+0	07:23:19.417	31337 EURUSD,M1: CloseOrder(): Closed order 36042657 with profit 2.03, reason: TaskRun(): 1; Order Details: Ticket:36042657; Time: 2015.07.01 07:23:09; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11383; Close Price: 1.11086; Take Profit: 1.9; Stop Loss: 1.1168; Swap: 0; Lot size: 0.01; 
+0	07:23:19.417	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	07:23:19.417	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 07:23:09; Account Balance: 40.32 GBP; Account Equity: 42.60 GBP; Free Margin: 17.12 GBP; No of Orders: 5 (BUY/SELL: 1/3); Risk Ratio: 0.3Stats: MACD M15: 20%, SAR M5: 20%, Bands M1: 20%, Fractals M1: 20%, Fractals M5: 20%, 
+Open Orders: 5 +1/-3 [0.04 lots] (other: 0)
+0	07:23:19.417	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [42.7/38.59]
+2	07:24:14.223	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11683 tp: 0.00000 ok
+2	07:25:38.118	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11677 tp: 0.00000 ok
+2	07:26:39.615	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11672 tp: 0.00000 ok
+2	07:27:38.764	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11663 tp: 0.00000 ok
+2	07:28:33.811	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11660 tp: 0.00000 ok
+2	07:29:18.793	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11654 tp: 0.00000 ok
+2	07:30:21.045	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11652 tp: 0.00000 ok
+2	07:31:35.727	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11646 tp: 0.00000 ok
+2	07:32:14.342	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11642 tp: 0.00000 ok
+2	07:33:13.881	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11635 tp: 0.00000 ok
+2	07:35:06.878	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11628 tp: 0.00000 ok
+2	07:35:14.128	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11621 tp: 0.00000 ok
+2	07:37:08.514	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11614 tp: 0.00000 ok
+2	07:37:31.480	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11609 tp: 0.00000 ok
+2	07:39:23.696	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11600 tp: 0.00000 ok
+2	07:40:42.700	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11589 tp: 0.00000 ok
+2	07:41:16.404	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11587 tp: 0.00000 ok
+2	07:42:19.501	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11582 tp: 0.00000 ok
+2	07:43:52.936	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11581 tp: 0.00000 ok
+2	07:45:18.232	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11575 tp: 0.00000 ok
+2	07:46:33.210	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11566 tp: 0.00000 ok
+2	07:48:37.953	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11556 tp: 0.00000 ok
+2	07:49:54.932	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11555 tp: 0.00000 ok
+2	07:50:24.746	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11549 tp: 0.00000 ok
+2	07:51:23.972	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11544 tp: 0.00000 ok
+2	07:53:03.337	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11539 tp: 0.00000 ok
+2	07:55:39.577	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11534 tp: 0.00000 ok
+2	07:56:55.500	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11531 tp: 0.00000 ok
+2	07:58:33.082	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11529 tp: 0.00000 ok
+0	08:00:26.276	31337 EURUSD,M1: == New hour: 8
+0	08:01:22.087	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	08:03:38.832	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11527 tp: 0.00000 ok
+2	08:05:33.097	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11449 tp: 0.00000 ok
+2	08:05:33.551	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11522 tp: 0.00000 ok
+2	08:10:24.307	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11436 tp: 0.00000 ok
+2	08:11:26.394	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11435 tp: 0.00000 ok
+2	08:11:27.206	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11521 tp: 0.00000 ok
+2	08:12:35.161	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11431 tp: 0.00000 ok
+2	08:12:35.550	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11516 tp: 0.00000 ok
+2	08:15:12.666	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11420 tp: 0.00000 ok
+2	08:17:28.035	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11514 tp: 0.00000 ok
+2	08:18:13.495	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11511 tp: 0.00000 ok
+2	08:19:41.342	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11508 tp: 0.00000 ok
+2	08:20:29.640	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11502 tp: 0.00000 ok
+2	08:21:18.038	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11501 tp: 0.00000 ok
+2	08:24:20.589	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11499 tp: 0.00000 ok
+2	08:26:56.874	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11498 tp: 0.00000 ok
+2	08:40:28.474	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11418 tp: 0.00000 ok
+2	08:40:28.933	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11495 tp: 0.00000 ok
+2	08:44:15.238	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11417 tp: 0.00000 ok
+2	08:44:16.345	31337 EURUSD,M1: modify #36043701 sell 0.01 EURUSD at 1.11304 sl: 1.11491 tp: 0.00000 ok
+2	08:45:30.020	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11409 tp: 0.00000 ok
+2	08:50:31.662	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11405 tp: 0.00000 ok
+2	08:51:13.812	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11399 tp: 0.00000 ok
+0	08:53:22.480	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	08:56:15.796	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11390 tp: 0.00000 ok
+2	08:59:21.987	31337 EURUSD,M1: modify #36042621 sell 0.01 EURUSD at 1.11380 sl: 1.11387 tp: 0.00000 ok
+0	09:00:14.721	31337 EURUSD,M1: == New hour: 9
+0	09:00:14.721	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 7 (period: weekly)
+0	09:00:14.721	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 7 (period: montly)
+0	09:02:14.408	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11414; Bid: 1.11412; Spread: 2 points = 0.2 pips; 
+2	09:02:15.127	31337 EURUSD,M1: open #36046021 buy 0.01 EURUSD at 1.11418 sl: 1.11083 ok
+0	09:02:15.127	31337 EURUSD,M1: #36046021 2015.07.01 09:02:04 buy 0.01 EURUSD 1.11418 1.11083 0.00000 1.11412 -0.13 0.00 -0.03 SAR M30 31357
+0	09:02:15.127	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36046021; Time: 2015.07.01 09:02:05; Comment: SAR M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.11418; Close Price: 1.11412; Take Profit: -0.03; Stop Loss: 1.1108; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 09:02:05; Account Balance: 37.62 GBP; Account Equity: 37.46 GBP; Free Margin: 31.08 GBP; No of Orders: 0 (BUY/SELL: 1/0); Risk Ratio: 0.2
+0	09:05:21.071	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11424; Bid: 1.11419; Spread: 5 points = 0.5 pips; 
+2	09:05:21.460	31337 EURUSD,M1: open #36046091 buy 0.01 EURUSD at 1.11427 sl: 1.11019 ok
+0	09:05:21.460	31337 EURUSD,M1: #36046091 2015.07.01 09:05:11 buy 0.01 EURUSD 1.11427 1.11019 0.00000 1.11419 -0.13 0.00 -0.05 Fractals M1 31374
+0	09:05:21.460	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36046091; Time: 2015.07.01 09:05:11; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.11427; Close Price: 1.11419; Take Profit: -0.05; Stop Loss: 1.1102; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 09:05:11; Account Balance: 37.62 GBP; Account Equity: 37.32 GBP; Free Margin: 24.55 GBP; No of Orders: 1 (BUY/SELL: 2/0); Risk Ratio: 0.2
+2	09:06:26.599	31337 EURUSD,M1: modify #36046091 buy 0.01 EURUSD at 1.11427 sl: 1.11019 tp: 1.11439 ok
+0	09:07:21.465	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	09:08:27.839	31337 EURUSD,M1: modify #36046021 buy 0.01 EURUSD at 1.11418 sl: 1.11085 tp: 0.00000 ok
+0	09:12:25.062	31337 EURUSD,M1: UpdateStats(): Big drop of 21 pips detected.
+0	09:19:19.512	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11493; Bid: 1.11488; Spread: 5 points = 0.5 pips; 
+2	09:19:21.786	31337 EURUSD,M1: open #36046471 buy 0.01 EURUSD at 1.11486 sl: 1.11088 tp: 1.11558 ok
+0	09:19:21.786	31337 EURUSD,M1: #36046471 2015.07.01 09:19:10 buy 0.01 EURUSD 1.11486 1.11088 1.11558 1.11477 -0.13 0.00 -0.06 Fractals M1 31374
+0	09:19:21.786	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36046471; Time: 2015.07.01 09:19:11; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.11486; Close Price: 1.11477; Take Profit: -0.06; Stop Loss: 1.1109; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 09:19:11; Account Balance: 37.56 GBP; Account Equity: 37.61 GBP; Free Margin: 24.84 GBP; No of Orders: 1 (BUY/SELL: 2/0); Risk Ratio: 0.2
+0	09:21:15.468	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	09:21:16.575	31337 EURUSD,M1: modify #36046471 buy 0.01 EURUSD at 1.11486 sl: 1.11088 tp: 1.11565 ok
+0	09:24:22.166	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	09:26:14.128	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	09:29:13.082	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	09:41:14.559	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11264; Bid: 1.11260; Spread: 4 points = 0.4 pips; 
+2	09:41:15.050	31337 EURUSD,M1: open #36046819 sell 0.01 EURUSD at 1.11257 sl: 1.11583 ok
+0	09:41:15.050	31337 EURUSD,M1: #36046819 2015.07.01 09:41:04 sell 0.01 EURUSD 1.11257 1.11583 0.00000 1.11264 -0.13 0.00 -0.05 SAR M5 31355
+0	09:41:15.115	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36046819; Time: 2015.07.01 09:41:05; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11257; Close Price: 1.11264; Take Profit: -0.05; Stop Loss: 1.1158; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 09:41:05; Account Balance: 37.56 GBP; Account Equity: 34.67 GBP; Free Margin: 15.52 GBP; No of Orders: 2 (BUY/SELL: 2/1); Risk Ratio: 0.1
+0	09:42:14.841	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	10:00:25.007	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11238; Bid: 1.11235; Spread: 3 points = 0.3 pips; 
+2	10:00:27.291	31337 EURUSD,M1: open #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11638 ok
+0	10:00:27.291	31337 EURUSD,M1: #36047040 2015.07.01 10:00:15 sell 0.01 EURUSD 1.11228 1.11638 0.00000 1.11239 -0.13 0.00 -0.07 Fractals M5 31375
+0	10:00:27.291	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047040; Time: 2015.07.01 10:00:17; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11228; Close Price: 1.11239; Take Profit: -0.07; Stop Loss: 1.1164; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 10:00:17; Account Balance: 37.56 GBP; Account Equity: 34.32 GBP; Free Margin: 8.78 GBP; No of Orders: 3 (BUY/SELL: 2/2); Risk Ratio: 0.1
+0	10:00:27.291	31337 EURUSD,M1: == New hour: 10
+0	10:03:59.718	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11280; Bid: 1.11275; Spread: 5 points = 0.5 pips; 
+2	10:04:00.338	31337 EURUSD,M1: open #36047068 sell 0.01 EURUSD at 1.11273 sl: 1.11680 ok
+0	10:04:00.338	31337 EURUSD,M1: #36047068 2015.07.01 10:03:50 sell 0.01 EURUSD 1.11273 1.11680 0.00000 1.11280 -0.13 0.00 -0.05 Bands M1 31358
+0	10:04:00.338	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047068; Time: 2015.07.01 10:03:50; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11273; Close Price: 1.11280; Take Profit: -0.05; Stop Loss: 1.1168; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 10:03:50; Account Balance: 37.56 GBP; Account Equity: 34.13 GBP; Free Margin: 2.21 GBP; No of Orders: 4 (BUY/SELL: 2/3); Risk Ratio: 0.1
+0	10:08:14.023	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	10:22:13.748	31337 EURUSD,M1: modify #36047068 sell 0.01 EURUSD at 1.11273 sl: 1.11676 tp: 0.00000 ok
+0	10:22:13.779	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11103; Bid: 1.11100; Spread: 3 points = 0.3 pips; 
+2	10:22:14.922	31337 EURUSD,M1: open #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11503 ok
+0	10:22:14.922	31337 EURUSD,M1: #36047197 2015.07.01 10:22:04 sell 0.01 EURUSD 1.11095 1.11503 0.00000 1.11103 -0.13 0.00 -0.05 Fractals M1 31374
+0	10:22:14.922	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047197; Time: 2015.07.01 10:22:04; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11095; Close Price: 1.11103; Take Profit: -0.05; Stop Loss: 1.115; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 10:22:04; Account Balance: 32.63 GBP; Account Equity: 34.94 GBP; Free Margin: 9.39 GBP; No of Orders: 3 (BUY/SELL: 0/4); Risk Ratio: 0.3
+2	10:22:15.311	31337 EURUSD,M1: modify #36047068 sell 0.01 EURUSD at 1.11273 sl: 1.11670 tp: 0.00000 ok
+2	10:24:21.109	31337 EURUSD,M1: modify #36047068 sell 0.01 EURUSD at 1.11273 sl: 1.11663 tp: 0.00000 ok
+0	10:24:21.109	31337 EURUSD,M1: 1
+2	10:24:22.609	31337 EURUSD,M1: close #36047068 sell 0.01 EURUSD at 1.11273 sl: 1.11663 at price 1.11051
+0	10:24:22.609	31337 EURUSD,M1: CloseOrder(): Closed order 36047068 with profit 1.6, reason: TaskRun(): 1; Order Details: Ticket:36047068; Time: 2015.07.01 10:24:11; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11273; Close Price: 1.11043; Take Profit: 1.47; Stop Loss: 1.1166; Swap: 0; Lot size: 0.01; 
+0	10:24:22.642	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	10:24:22.642	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 10:24:12; Account Balance: 33.92 GBP; Account Equity: 36.31 GBP; Free Margin: 17.15 GBP; No of Orders: 4 (BUY/SELL: 0/3); Risk Ratio: 0.3Stats: MACD M15: 25%, SAR M5: 25%, SAR M30: 25%, 
+Open Orders: 4 +0/-3 [0.03 lots] (other: 0)
+0	10:24:22.642	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [36.46/32.63]
+0	10:28:42.015	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	10:40:38.318	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11637 tp: 0.00000 ok
+2	10:43:51.648	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11634 tp: 0.00000 ok
+0	10:47:55.336	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11145; Bid: 1.11142; Spread: 3 points = 0.3 pips; 
+2	10:47:56.629	31337 EURUSD,M1: open #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11545 ok
+0	10:47:56.629	31337 EURUSD,M1: #36047441 2015.07.01 10:47:45 sell 0.01 EURUSD 1.11142 1.11545 0.00000 1.11145 -0.13 0.00 -0.02 Bands M1 31358
+0	10:47:56.629	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047441; Time: 2015.07.01 10:47:45; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11142; Close Price: 1.11145; Take Profit: -0.02; Stop Loss: 1.1155; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 10:47:45; Account Balance: 33.92 GBP; Account Equity: 34.31 GBP; Free Margin: 8.76 GBP; No of Orders: 3 (BUY/SELL: 0/4); Risk Ratio: 0.2
+0	10:49:52.686	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	10:53:16.522	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11630 tp: 0.00000 ok
+2	10:54:35.198	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11544 tp: 0.00000 ok
+2	10:56:26.223	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11625 tp: 0.00000 ok
+2	10:56:26.617	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11536 tp: 0.00000 ok
+0	10:56:26.617	31337 EURUSD,M1: 1
+2	10:56:29.026	31337 EURUSD,M1: close #36046819 sell 0.01 EURUSD at 1.11257 sl: 1.11583 at price 1.11019
+0	10:56:29.026	31337 EURUSD,M1: CloseOrder(): Closed order 36046819 with profit 1.67, reason: TaskRun(): 1; Order Details: Ticket:36046819; Time: 2015.07.01 10:56:18; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11257; Close Price: 1.11016; Take Profit: 1.54; Stop Loss: 1.1158; Swap: 0; Lot size: 0.01; 
+0	10:56:29.026	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	10:56:29.026	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 10:56:18; Account Balance: 35.31 GBP; Account Equity: 37.61 GBP; Free Margin: 18.45 GBP; No of Orders: 4 (BUY/SELL: 0/3); Risk Ratio: 0.3Stats: MACD M15: 25%, SAR M5: 25%, SAR M30: 25%, Bands M1: 25%, Fractals M1: 25%, 
+Open Orders: 4 +0/-3 [0.03 lots] (other: 0)
+0	10:56:29.026	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [37.62/33.92]
+2	10:57:59.163	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11623 tp: 0.00000 ok
+2	10:57:59.556	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11530 tp: 0.00000 ok
+0	10:59:26.024	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11075; Bid: 1.11070; Spread: 5 points = 0.5 pips; 
+2	10:59:27.590	31337 EURUSD,M1: open #36047555 sell 0.01 EURUSD at 1.11067 sl: 1.11475 ok
+0	10:59:27.590	31337 EURUSD,M1: #36047555 2015.07.01 10:59:16 sell 0.01 EURUSD 1.11067 1.11475 0.00000 1.11077 -0.13 0.00 -0.07 SAR M30 31357
+0	10:59:27.590	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047555; Time: 2015.07.01 10:59:17; Comment: SAR M30; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11067; Close Price: 1.11077; Take Profit: -0.07; Stop Loss: 1.1147; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 10:59:17; Account Balance: 35.31 GBP; Account Equity: 36.20 GBP; Free Margin: 10.65 GBP; No of Orders: 3 (BUY/SELL: 0/4); Risk Ratio: 0.2
+0	11:00:48.236	31337 EURUSD,M1: == New hour: 11
+0	11:00:48.236	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 7 to default.
+0	11:00:48.236	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 20 (period: weekly)
+0	11:00:48.236	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 7 to default.
+0	11:00:48.236	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 20 (period: montly)
+0	11:02:31.114	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.11158; Bid: 1.11156; Spread: 2 points = 0.2 pips; 
+2	11:03:03.972	31337 EURUSD,M1: open #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11555 ok
+0	11:03:03.972	31337 EURUSD,M1: #36047593 2015.07.01 11:02:21 sell 0.01 EURUSD 1.11150 1.11555 0.00000 1.11157 -0.13 0.00 -0.05 MACD M15 31344
+0	11:03:03.972	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36047593; Time: 2015.07.01 11:02:21; Comment: MACD M15; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11150; Close Price: 1.11157; Take Profit: -0.05; Stop Loss: 1.1156; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 11:02:21; Account Balance: 35.31 GBP; Account Equity: 33.98 GBP; Free Margin: 2.05 GBP; No of Orders: 4 (BUY/SELL: 0/5); Risk Ratio: 0.2
+0	11:03:03.972	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	11:03:58.346	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	11:04:38.202	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11554 tp: 0.00000 ok
+2	11:07:25.492	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11619 tp: 0.00000 ok
+2	11:07:25.885	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11552 tp: 0.00000 ok
+0	11:11:20.444	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	11:11:29.012	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	11:11:31.068	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11618 tp: 0.00000 ok
+2	11:13:00.484	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11613 tp: 0.00000 ok
+0	11:13:19.180	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	11:15:52.197	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11547 tp: 0.00000 ok
+2	11:15:52.984	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11610 tp: 0.00000 ok
+2	11:15:53.343	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11542 tp: 0.00000 ok
+2	11:17:27.087	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11609 tp: 0.00000 ok
+2	11:19:09.562	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11608 tp: 0.00000 ok
+2	11:19:14.092	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11529 tp: 0.00000 ok
+2	11:19:18.943	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11541 tp: 0.00000 ok
+2	11:20:20.915	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11605 tp: 0.00000 ok
+2	11:20:22.975	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11528 tp: 0.00000 ok
+2	11:20:23.364	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11540 tp: 0.00000 ok
+2	11:24:39.791	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11526 tp: 0.00000 ok
+2	11:26:16.016	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11603 tp: 0.00000 ok
+2	11:26:16.899	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11523 tp: 0.00000 ok
+2	11:29:48.634	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11520 tp: 0.00000 ok
+2	11:30:42.083	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11599 tp: 0.00000 ok
+2	11:30:43.060	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11515 tp: 0.00000 ok
+2	11:30:43.287	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11537 tp: 0.00000 ok
+2	11:32:24.110	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11512 tp: 0.00000 ok
+2	11:33:51.507	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11510 tp: 0.00000 ok
+2	11:35:26.579	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11509 tp: 0.00000 ok
+2	11:35:56.658	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11536 tp: 0.00000 ok
+2	11:36:35.976	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11598 tp: 0.00000 ok
+2	11:37:51.860	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11596 tp: 0.00000 ok
+2	11:37:52.185	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11507 tp: 0.00000 ok
+2	11:37:52.513	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11534 tp: 0.00000 ok
+0	11:38:26.078	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	11:38:26.375	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11533 tp: 0.00000 ok
+2	11:40:26.453	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11595 tp: 0.00000 ok
+2	11:41:22.570	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11594 tp: 0.00000 ok
+2	11:44:09.532	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11591 tp: 0.00000 ok
+2	11:44:10.088	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11506 tp: 0.00000 ok
+2	11:45:16.536	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11590 tp: 0.00000 ok
+2	11:45:17.384	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11516 tp: 0.00000 ok
+2	11:47:00.313	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11585 tp: 0.00000 ok
+2	11:47:00.804	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11500 tp: 0.00000 ok
+2	11:47:02.723	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11500 tp: 0.00000 ok
+2	11:47:05.527	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11514 tp: 0.00000 ok
+2	11:49:26.182	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11582 tp: 0.00000 ok
+2	11:49:26.867	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11493 tp: 0.00000 ok
+2	11:49:27.551	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11493 tp: 0.00000 ok
+2	11:49:28.266	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11511 tp: 0.00000 ok
+2	11:53:52.868	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11577 tp: 0.00000 ok
+2	11:53:54.753	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11485 tp: 0.00000 ok
+2	11:53:55.924	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11485 tp: 0.00000 ok
+2	12:00:57.822	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11573 tp: 0.00000 ok
+2	12:01:00.950	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11484 tp: 0.00000 ok
+2	12:01:04.111	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11484 tp: 0.00000 ok
+2	12:01:05.638	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11501 tp: 0.00000 ok
+0	12:01:05.638	31337 EURUSD,M1: == New hour: 12
+2	12:02:44.458	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11483 tp: 0.00000 ok
+2	12:02:44.782	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11483 tp: 0.00000 ok
+2	12:02:45.402	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11499 tp: 0.00000 ok
+2	12:06:05.932	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11571 tp: 0.00000 ok
+2	12:07:11.206	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11569 tp: 0.00000 ok
+0	12:09:49.632	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	12:10:37.006	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11565 tp: 0.00000 ok
+2	12:13:48.809	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11562 tp: 0.00000 ok
+2	12:13:52.714	31337 EURUSD,M1: modify #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11495 tp: 0.00000 ok
+0	12:15:30.264	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10930; Bid: 1.10925; Spread: 5 points = 0.5 pips; 
+2	12:15:31.048	31337 EURUSD,M1: open #36048346 buy 0.01 EURUSD at 1.10938 sl: 1.10857 tp: 1.11787 ok
+0	12:15:31.048	31337 EURUSD,M1: #36048346 2015.07.01 12:15:20 buy 0.01 EURUSD 1.10938 1.10857 1.11787 1.10940 -0.13 0.00 0.01 Envelopes M30 31365
+0	12:15:31.048	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36048346; Time: 2015.07.01 12:15:20; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10938; Close Price: 1.10940; Take Profit: 0.01; Stop Loss: 1.1086; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 12:15:20; Account Balance: 35.31 GBP; Account Equity: 40.82 GBP; Free Margin: 2.49 GBP; No of Orders: 5 (BUY/SELL: 1/5); Risk Ratio: 0.4
+2	12:15:33.882	31337 EURUSD,M1: modify #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11560 tp: 0.00000 ok
+0	12:15:33.882	31337 EURUSD,M1: 1
+2	12:15:35.383	31337 EURUSD,M1: close #36047040 sell 0.01 EURUSD at 1.11228 sl: 1.11560 at price 1.10939
+0	12:15:35.383	31337 EURUSD,M1: CloseOrder(): Closed order 36047040 with profit 1.95, reason: TaskRun(): 1; Order Details: Ticket:36047040; Time: 2015.07.01 12:15:24; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11228; Close Price: 1.10943; Take Profit: 1.82; Stop Loss: 1.1156; Swap: 0; Lot size: 0.01; 
+0	12:15:35.383	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	12:15:35.383	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 12:15:24; Account Balance: 37.03 GBP; Account Equity: 40.92 GBP; Free Margin: 8.98 GBP; No of Orders: 6 (BUY/SELL: 1/4); Risk Ratio: 0.3Stats: MACD M15: 16%, SAR M5: 16%, Bands M1: 16%, Fractals M1: 16%, 
+Open Orders: 6 +1/-4 [0.05 lots] (other: 0)
+0	12:15:35.383	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [40.73/35.31]
+0	12:15:35.383	31337 EURUSD,M1: UpdateStats(): Big drop of 10.3 pips detected.
+2	12:17:33.205	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11473 tp: 0.00000 ok
+2	12:17:33.595	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11473 tp: 0.00000 ok
+2	12:17:34.179	31337 EURUSD,M1: modify #36048346 buy 0.01 EURUSD at 1.10938 sl: 1.10861 tp: 1.11787 ok
+0	12:17:34.179	31337 EURUSD,M1: 1
+2	12:17:34.929	31337 EURUSD,M1: close #36047593 sell 0.01 EURUSD at 1.11150 sl: 1.11495 at price 1.10943
+0	12:17:34.929	31337 EURUSD,M1: CloseOrder(): Closed order 36047593 with profit 1.51, reason: TaskRun(): 1; Order Details: Ticket:36047593; Time: 2015.07.01 12:17:24; Comment: MACD M15; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11150; Close Price: 1.10935; Take Profit: 1.38; Stop Loss: 1.115; Swap: 0; Lot size: 0.01; 
+0	12:17:34.929	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	12:17:34.929	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 12:17:24; Account Balance: 38.23 GBP; Account Equity: 40.79 GBP; Free Margin: 15.23 GBP; No of Orders: 5 (BUY/SELL: 1/3); Risk Ratio: 0.3Stats: MACD M15: 20%, SAR M5: 20%, Bands M1: 20%, Envelopes M30: 20%, Fractals M1: 20%, 
+Open Orders: 5 +1/-3 [0.04 lots] (other: 0)
+0	12:17:34.929	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [40.92/37.03]
+2	12:18:24.216	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11464 tp: 0.00000 ok
+2	12:18:24.610	31337 EURUSD,M1: modify #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11464 tp: 0.00000 ok
+0	12:18:24.610	31337 EURUSD,M1: 1
+2	12:18:24.902	31337 EURUSD,M1: close #36047441 sell 0.01 EURUSD at 1.11142 sl: 1.11464 at price 1.10872
+0	12:18:24.902	31337 EURUSD,M1: CloseOrder(): Closed order 36047441 with profit 1.87, reason: TaskRun(): 1; Order Details: Ticket:36047441; Time: 2015.07.01 12:18:14; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11142; Close Price: 1.10869; Take Profit: 1.74; Stop Loss: 1.1146; Swap: 0; Lot size: 0.01; 
+0	12:18:24.902	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	12:18:24.902	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 12:18:14; Account Balance: 39.20 GBP; Account Equity: 41.66 GBP; Free Margin: 28.88 GBP; No of Orders: 3 (BUY/SELL: 0/2); Risk Ratio: 0.3Stats: MACD M15: 33%, SAR M5: 33%, Bands M1: 33%, Envelopes M30: 33%, Fractals M1: 33%, 
+Open Orders: 3 +0/-2 [0.02 lots] (other: 0)
+0	12:18:24.902	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [41.66/37.61]
+0	12:19:51.781	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10854; Bid: 1.10851; Spread: 3 points = 0.3 pips; 
+2	12:19:54.322	31337 EURUSD,M1: open #36048442 buy 0.01 EURUSD at 1.10856 tp: 1.11785 ok
+0	12:19:54.322	31337 EURUSD,M1: #36048442 2015.07.01 12:19:43 buy 0.01 EURUSD 1.10856 0.00000 1.11785 1.10849 -0.13 0.00 -0.04 Envelopes M30 31365
+0	12:19:54.322	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36048442; Time: 2015.07.01 12:19:43; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10856; Close Price: 1.10849; Take Profit: -0.04; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 12:19:43; Account Balance: 39.20 GBP; Account Equity: 41.68 GBP; Free Margin: 22.51 GBP; No of Orders: 2 (BUY/SELL: 1/2); Risk Ratio: 0.3
+2	12:19:54.877	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11459 tp: 0.00000 ok
+2	12:19:57.817	31337 EURUSD,M1: modify #36048442 buy 0.01 EURUSD at 1.10856 sl: 1.10451 tp: 1.11785 ok
+2	12:20:28.301	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11451 tp: 0.00000 ok
+2	12:21:26.406	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11443 tp: 0.00000 ok
+2	12:23:59.897	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11435 tp: 0.00000 ok
+2	12:24:18.403	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11424 tp: 0.00000 ok
+2	12:25:57.971	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11417 tp: 0.00000 ok
+2	12:26:14.900	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11409 tp: 0.00000 ok
+2	12:28:12.872	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11402 tp: 0.00000 ok
+2	12:28:18.445	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11391 tp: 0.00000 ok
+2	12:29:23.146	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11388 tp: 0.00000 ok
+2	12:29:32.756	31337 EURUSD,M1: modify #36048442 buy 0.01 EURUSD at 1.10856 sl: 1.10451 tp: 1.11786 ok
+2	12:30:25.393	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11382 tp: 0.00000 ok
+2	12:31:18.096	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11375 tp: 0.00000 ok
+2	12:33:13.946	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11373 tp: 0.00000 ok
+2	12:33:15.052	31337 EURUSD,M1: modify #36048442 buy 0.01 EURUSD at 1.10856 sl: 1.10855 tp: 1.11786 ok
+2	12:34:26.507	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11372 tp: 0.00000 ok
+2	12:36:05.700	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11370 tp: 0.00000 ok
+2	12:36:37.553	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11364 tp: 0.00000 ok
+2	12:37:23.221	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11360 tp: 0.00000 ok
+2	12:40:16.080	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11359 tp: 0.00000 ok
+2	12:41:41.705	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11357 tp: 0.00000 ok
+2	12:42:42.009	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11355 tp: 0.00000 ok
+2	12:44:53.757	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11354 tp: 0.00000 ok
+0	12:45:41.774	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10963; Bid: 1.10961; Spread: 2 points = 0.2 pips; 
+2	12:45:44.947	31337 EURUSD,M1: open #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11355 ok
+0	12:45:44.947	31337 EURUSD,M1: #36048873 2015.07.01 12:45:31 sell 0.01 EURUSD 1.10958 1.11355 0.00000 1.10963 -0.13 0.00 -0.03 Bands M1 31358
+0	12:45:44.947	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36048873; Time: 2015.07.01 12:45:31; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10958; Close Price: 1.10963; Take Profit: -0.03; Stop Loss: 1.1136; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 12:45:31; Account Balance: 39.20 GBP; Account Equity: 40.82 GBP; Free Margin: 15.26 GBP; No of Orders: 3 (BUY/SELL: 1/3); Risk Ratio: 0.2
+2	12:51:20.577	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11350 tp: 0.00000 ok
+2	12:51:22.143	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11350 tp: 0.00000 ok
+2	12:56:57.764	31337 EURUSD,M1: modify #36048442 buy 0.01 EURUSD at 1.10856 sl: 1.10856 tp: 1.11786 ok
+0	13:00:20.847	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10962; Bid: 1.10959; Spread: 3 points = 0.3 pips; 
+2	13:00:44.312	31337 EURUSD,M1: open #36048961 buy 0.01 EURUSD at 1.10965 sl: 1.10589 tp: 1.11121 ok
+0	13:00:44.312	31337 EURUSD,M1: #36048961 2015.07.01 13:00:10 buy 0.01 EURUSD 1.10965 1.10589 1.11121 1.10959 -0.13 0.00 -0.03 Fractals M5 31375
+0	13:00:44.312	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36048961; Time: 2015.07.01 13:00:13; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10965; Close Price: 1.10959; Take Profit: -0.03; Stop Loss: 1.1059; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 13:00:13; Account Balance: 39.20 GBP; Account Equity: 40.78 GBP; Free Margin: 8.83 GBP; No of Orders: 4 (BUY/SELL: 2/3); Risk Ratio: 0.2
+0	13:00:44.312	31337 EURUSD,M1: == New hour: 13
+0	13:02:56.164	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	13:02:57.913	31337 EURUSD,M1: modify #36048961 buy 0.01 EURUSD at 1.10965 sl: 1.10592 tp: 1.11121 ok
+0	13:03:35.784	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10977; Bid: 1.10976; Spread: 1 points = 0.1 pips; 
+2	13:03:36.272	31337 EURUSD,M1: open #36048981 buy 0.01 EURUSD at 1.10980 sl: 1.10772 ok
+0	13:03:36.272	31337 EURUSD,M1: #36048981 2015.07.01 13:03:25 buy 0.01 EURUSD 1.10980 1.10772 0.00000 1.10976 -0.13 0.00 -0.02 SAR M5 31355
+0	13:03:36.272	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36048981; Time: 2015.07.01 13:03:25; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10980; Close Price: 1.10976; Take Profit: -0.02; Stop Loss: 1.1077; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 13:03:25; Account Balance: 39.20 GBP; Account Equity: 40.45 GBP; Free Margin: 2.11 GBP; No of Orders: 5 (BUY/SELL: 3/3); Risk Ratio: 0.2
+0	13:03:36.272	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	13:04:56.436	31337 EURUSD,M1: modify #36048961 buy 0.01 EURUSD at 1.10965 sl: 1.10592 tp: 1.11122 ok
+0	13:19:16.693	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	13:32:35.733	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10748; Bid: 1.10748; Spread: 0 points = 0 pips; 
+2	13:32:36.191	31337 EURUSD,M1: open #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11148 ok
+0	13:32:36.191	31337 EURUSD,M1: #36049404 2015.07.01 13:32:25 sell 0.01 EURUSD 1.10745 1.11148 0.00000 1.10751 -0.13 0.00 -0.03 SAR M5 31355
+0	13:32:36.191	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36049404; Time: 2015.07.01 13:32:25; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10745; Close Price: 1.10751; Take Profit: -0.03; Stop Loss: 1.1115; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 13:32:25; Account Balance: 37.61 GBP; Account Equity: 41.09 GBP; Free Margin: 9.14 GBP; No of Orders: 4 (BUY/SELL: 1/4); Risk Ratio: 0.3
+0	13:32:36.191	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10751; Bid: 1.10748; Spread: 3 points = 0.3 pips; 
+2	13:32:36.576	31337 EURUSD,M1: open #36049405 buy 0.01 EURUSD at 1.10754 tp: 1.11739 ok
+0	13:32:36.576	31337 EURUSD,M1: #36049405 2015.07.01 13:32:26 buy 0.01 EURUSD 1.10754 0.00000 1.11739 1.10745 -0.13 0.00 -0.06 Envelopes M30 31365
+0	13:32:36.576	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36049405; Time: 2015.07.01 13:32:26; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10754; Close Price: 1.10745; Take Profit: -0.06; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 13:32:26; Account Balance: 37.61 GBP; Account Equity: 40.97 GBP; Free Margin: 2.63 GBP; No of Orders: 5 (BUY/SELL: 2/4); Risk Ratio: 0.3
+2	13:32:36.868	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11344 tp: 0.00000 ok
+2	13:32:37.327	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11344 tp: 0.00000 ok
+2	13:32:39.338	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10348 tp: 1.11739 ok
+0	13:32:39.338	31337 EURUSD,M1: UpdateStats(): Big drop of 12.1 pips detected.
+2	13:33:20.473	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11337 tp: 0.00000 ok
+2	13:33:25.848	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11337 tp: 0.00000 ok
+2	13:34:51.984	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11329 tp: 0.00000 ok
+2	13:34:52.276	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11329 tp: 0.00000 ok
+2	13:35:12.452	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11325 tp: 0.00000 ok
+2	13:35:13.165	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11325 tp: 0.00000 ok
+2	13:36:46.021	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11318 tp: 0.00000 ok
+2	13:36:50.556	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11318 tp: 0.00000 ok
+2	13:36:53.869	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10348 tp: 1.11740 ok
+2	13:37:15.282	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11309 tp: 0.00000 ok
+2	13:37:15.838	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11309 tp: 0.00000 ok
+2	13:38:24.376	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11306 tp: 0.00000 ok
+2	13:38:24.770	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11306 tp: 0.00000 ok
+2	13:39:50.880	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11304 tp: 0.00000 ok
+2	13:39:53.285	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11304 tp: 0.00000 ok
+2	13:41:40.383	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11295 tp: 0.00000 ok
+2	13:41:42.106	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11295 tp: 0.00000 ok
+2	13:42:24.301	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11291 tp: 0.00000 ok
+2	13:42:42.058	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11291 tp: 0.00000 ok
+2	13:42:47.004	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10348 tp: 1.11741 ok
+2	13:44:46.858	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11272 tp: 0.00000 ok
+2	13:44:49.217	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11272 tp: 0.00000 ok
+2	13:47:40.086	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11270 tp: 0.00000 ok
+2	13:47:40.476	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11270 tp: 0.00000 ok
+2	13:48:52.914	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11255 tp: 0.00000 ok
+2	13:49:00.052	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11255 tp: 0.00000 ok
+2	13:49:16.267	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11250 tp: 0.00000 ok
+2	13:49:17.115	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11250 tp: 0.00000 ok
+2	13:51:08.752	31337 EURUSD,M1: modify #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11246 tp: 0.00000 ok
+2	13:51:17.835	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11246 tp: 0.00000 ok
+0	13:51:17.835	31337 EURUSD,M1: 1
+2	13:51:24.185	31337 EURUSD,M1: close #36047197 sell 0.01 EURUSD at 1.11095 sl: 1.11246 at price 1.10666
+0	13:51:24.185	31337 EURUSD,M1: CloseOrder(): Closed order 36047197 with profit 2.92, reason: TaskRun(): 1; Order Details: Ticket:36047197; Time: 2015.07.01 13:51:13; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11095; Close Price: 1.10658; Take Profit: 2.79; Stop Loss: 1.1125; Swap: 0; Lot size: 0.01; 
+0	13:51:24.185	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	13:51:24.185	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 13:51:13; Account Balance: 40.23 GBP; Account Equity: 42.01 GBP; Free Margin: 10.06 GBP; No of Orders: 6 (BUY/SELL: 2/3); Risk Ratio: 0.2Stats: MACD M15: 16%, Fractals M1: 16%, Fractals M5: 16%, 
+Open Orders: 6 +2/-3 [0.05 lots] (other: 0)
+0	13:51:24.185	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [42.06/37.61]
+0	13:51:31.841	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	13:51:32.781	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11236 tp: 0.00000 ok
+0	13:51:32.781	31337 EURUSD,M1: UpdateStats(): Big drop of 6.5 pips detected.
+2	13:52:35.405	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11231 tp: 0.00000 ok
+2	13:54:00.395	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11223 tp: 0.00000 ok
+2	13:54:59.617	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11216 tp: 0.00000 ok
+2	13:55:58.411	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11213 tp: 0.00000 ok
+2	13:56:46.054	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11208 tp: 0.00000 ok
+0	13:58:59.465	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	13:59:10.895	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11196 tp: 0.00000 ok
+2	14:01:15.567	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10348 tp: 1.11747 ok
+0	14:01:15.599	31337 EURUSD,M1: == New hour: 14
+0	14:01:17.610	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	14:01:23.887	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11183 tp: 0.00000 ok
+2	14:02:50.931	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11175 tp: 0.00000 ok
+0	14:02:50.967	31337 EURUSD,M1: UpdateStats(): Big drop of 6.4 pips detected.
+2	14:03:44.307	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11172 tp: 0.00000 ok
+2	14:04:21.543	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11166 tp: 0.00000 ok
+2	14:06:19.780	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11162 tp: 0.00000 ok
+2	14:06:20.210	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11159 tp: 0.00000 ok
+2	14:07:28.548	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11152 tp: 0.00000 ok
+2	14:08:33.213	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11147 tp: 0.00000 ok
+2	14:10:05.025	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11141 tp: 0.00000 ok
+0	14:10:05.025	31337 EURUSD,M1: 1
+2	14:10:06.359	31337 EURUSD,M1: close #36047555 sell 0.01 EURUSD at 1.11067 sl: 1.11475 at price 1.10652
+0	14:10:06.359	31337 EURUSD,M1: CloseOrder(): Closed order 36047555 with profit 2.78, reason: TaskRun(): 1; Order Details: Ticket:36047555; Time: 2015.07.01 14:09:55; Comment: SAR M30; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.11067; Close Price: 1.10653; Take Profit: 2.65; Stop Loss: 1.1147; Swap: 0; Lot size: 0.01; 
+0	14:10:06.359	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	14:10:06.359	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 14:09:55; Account Balance: 40.24 GBP; Account Equity: 41.76 GBP; Free Margin: 22.58 GBP; No of Orders: 4 (BUY/SELL: 1/2); Risk Ratio: 0.2Stats: MACD M15: 25%, Envelopes M30: 25%, Fractals M1: 25%, Fractals M5: 25%, 
+Open Orders: 4 +1/-2 [0.03 lots] (other: 0)
+0	14:10:06.359	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [41.73/37.71]
+2	14:11:01.030	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11139 tp: 0.00000 ok
+2	14:11:48.105	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11136 tp: 0.00000 ok
+2	14:14:52.528	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11133 tp: 0.00000 ok
+2	14:15:43.147	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11129 tp: 0.00000 ok
+0	14:18:43.932	31337 EURUSD,M1: UpdateStats(): Big drop of 6.9 pips detected.
+2	14:20:25.406	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11135 tp: 0.00000 ok
+2	14:21:53.946	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11133 tp: 0.00000 ok
+2	14:23:57.689	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11131 tp: 0.00000 ok
+2	14:25:13.735	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11112 tp: 0.00000 ok
+2	14:27:41.961	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11110 tp: 0.00000 ok
+2	14:30:32.472	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11084 tp: 0.00000 ok
+2	14:32:29.538	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10762 tp: 1.11747 ok
+0	14:32:29.538	31337 EURUSD,M1: UpdateStats(): Big drop of 10.3 pips detected.
+2	14:33:20.034	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11083 tp: 0.00000 ok
+2	14:33:20.363	31337 EURUSD,M1: modify #36049405 buy 0.01 EURUSD at 1.10754 sl: 1.10763 tp: 1.11747 ok
+0	14:35:51.249	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	14:42:24.734	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11081 tp: 0.00000 ok
+0	14:44:46.898	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10780; Bid: 1.10778; Spread: 2 points = 0.2 pips; 
+2	14:44:47.917	31337 EURUSD,M1: open #36050706 buy 0.01 EURUSD at 1.10783 tp: 1.11703 ok
+0	14:44:47.917	31337 EURUSD,M1: #36050706 2015.07.01 14:44:36 buy 0.01 EURUSD 1.10783 0.00000 1.11703 1.10778 -0.13 0.00 -0.04 Envelopes M30 31365
+0	14:44:47.917	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36050706; Time: 2015.07.01 14:44:37; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10783; Close Price: 1.10778; Take Profit: -0.04; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 14:44:37; Account Balance: 40.17 GBP; Account Equity: 40.66 GBP; Free Margin: 21.48 GBP; No of Orders: 2 (BUY/SELL: 1/2); Risk Ratio: 0.2
+2	14:44:50.320	31337 EURUSD,M1: modify #36050706 buy 0.01 EURUSD at 1.10783 sl: 1.10378 tp: 1.11703 ok
+2	14:46:39.115	31337 EURUSD,M1: modify #36050706 buy 0.01 EURUSD at 1.10783 sl: 1.10762 tp: 1.11704 ok
+2	14:49:20.801	31337 EURUSD,M1: modify #36050706 buy 0.01 EURUSD at 1.10783 sl: 1.10762 tp: 1.11705 ok
+2	14:50:37.096	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11080 tp: 0.00000 ok
+2	14:52:58.243	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11079 tp: 0.00000 ok
+2	14:52:58.702	31337 EURUSD,M1: modify #36050706 buy 0.01 EURUSD at 1.10783 sl: 1.10763 tp: 1.11705 ok
+2	14:55:26.126	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11074 tp: 0.00000 ok
+0	14:57:41.026	31337 EURUSD,M1: UpdateStats(): Big drop of 7.7 pips detected.
+0	14:58:20.485	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	14:58:21.036	31337 EURUSD,M1: modify #36049404 sell 0.01 EURUSD at 1.10745 sl: 1.11072 tp: 0.00000 ok
+2	14:58:21.430	31337 EURUSD,M1: modify #36050706 buy 0.01 EURUSD at 1.10783 sl: 1.10764 tp: 1.11705 ok
+0	15:00:18.083	31337 EURUSD,M1: == New hour: 15
+0	15:00:18.083	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 20 to default.
+0	15:00:18.083	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 18 (period: weekly)
+0	15:00:18.083	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 20 to default.
+0	15:00:18.083	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 18 (period: montly)
+0	15:01:29.102	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	15:09:13.703	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10878; Bid: 1.10876; Spread: 2 points = 0.2 pips; 
+2	15:09:18.519	31337 EURUSD,M1: open #36052295 buy 0.01 EURUSD at 1.10881 sl: 1.10476 tp: 1.11028 ok
+0	15:09:18.519	31337 EURUSD,M1: #36052295 2015.07.01 15:09:05 buy 0.01 EURUSD 1.10881 1.10476 1.11028 1.10877 -0.13 0.00 -0.02 Fractals M1 31374
+0	15:09:18.519	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36052295; Time: 2015.07.01 15:09:07; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10881; Close Price: 1.10877; Take Profit: -0.02; Stop Loss: 1.1048; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 15:09:07; Account Balance: 37.94 GBP; Account Equity: 38.64 GBP; Free Margin: 19.46 GBP; No of Orders: 2 (BUY/SELL: 2/1); Risk Ratio: 0.2
+0	15:23:09.441	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10985; Bid: 1.10981; Spread: 4 points = 0.4 pips; 
+2	15:23:26.457	31337 EURUSD,M1: open #36052926 buy 0.01 EURUSD at 1.10988 sl: 1.10581 ok
+0	15:23:26.460	31337 EURUSD,M1: #36052926 2015.07.01 15:22:59 buy 0.01 EURUSD 1.10988 1.10581 0.00000 1.10973 -0.13 0.00 -0.09 Fractals M5 31375
+0	15:23:26.460	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36052926; Time: 2015.07.01 15:23:04; Comment: Fractals M5; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10988; Close Price: 1.10973; Take Profit: -0.09; Stop Loss: 1.1058; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 15:23:04; Account Balance: 37.94 GBP; Account Equity: 39.02 GBP; Free Margin: 13.44 GBP; No of Orders: 3 (BUY/SELL: 3/1); Risk Ratio: 0.2
+2	15:27:15.770	31337 EURUSD,M1: modify #36052926 buy 0.01 EURUSD at 1.10988 sl: 1.10581 tp: 1.10971 ok
+0	16:01:17.179	31337 EURUSD,M1: == New hour: 16
+0	16:29:16.796	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	17:01:40.183	31337 EURUSD,M1: == New hour: 17
+0	17:05:46.022	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10668; Bid: 1.10663; Spread: 5 points = 0.5 pips; 
+2	17:05:46.574	31337 EURUSD,M1: open #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11068 ok
+0	17:05:46.574	31337 EURUSD,M1: #36058316 2015.07.01 17:05:35 sell 0.01 EURUSD 1.10660 1.11068 0.00000 1.10668 -0.13 0.00 -0.05 MACD M15 31344
+0	17:05:46.574	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36058316; Time: 2015.07.01 17:05:35; Comment: MACD M15; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10660; Close Price: 1.10668; Take Profit: -0.05; Stop Loss: 1.1107; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 17:05:35; Account Balance: 37.69 GBP; Account Equity: 35.51 GBP; Free Margin: 9.92 GBP; No of Orders: 3 (BUY/SELL: 2/2); Risk Ratio: 0.1
+0	17:05:46.574	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10668; Bid: 1.10663; Spread: 5 points = 0.5 pips; 
+2	17:05:47.260	31337 EURUSD,M1: open #36058318 buy 0.01 EURUSD at 1.10671 sl: 1.10578 tp: 1.11617 ok
+0	17:05:47.260	31337 EURUSD,M1: #36058318 2015.07.01 17:05:36 buy 0.01 EURUSD 1.10671 1.10578 1.11617 1.10663 -0.13 0.00 -0.05 Envelopes M30 31365
+0	17:05:47.260	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36058318; Time: 2015.07.01 17:05:36; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10671; Close Price: 1.10663; Take Profit: -0.05; Stop Loss: 1.1058; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 17:05:36; Account Balance: 37.69 GBP; Account Equity: 35.33 GBP; Free Margin: 3.34 GBP; No of Orders: 4 (BUY/SELL: 3/2); Risk Ratio: 0.1
+0	17:06:15.636	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	17:06:16.715	31337 EURUSD,M1: modify #36058318 buy 0.01 EURUSD at 1.10671 sl: 1.10580 tp: 1.11617 ok
+2	17:07:40.532	31337 EURUSD,M1: modify #36058318 buy 0.01 EURUSD at 1.10671 sl: 1.10581 tp: 1.11617 ok
+2	17:23:43.230	31337 EURUSD,M1: modify #36058318 buy 0.01 EURUSD at 1.10671 sl: 1.10582 tp: 1.11617 ok
+2	17:26:24.287	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11119 tp: 0.00000 ok
+2	17:27:31.136	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11116 tp: 0.00000 ok
+0	17:28:58.915	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10563; Bid: 1.10560; Spread: 3 points = 0.3 pips; 
+2	17:28:59.996	31337 EURUSD,M1: open #36059575 buy 0.01 EURUSD at 1.10566 tp: 1.11615 ok
+0	17:29:00.027	31337 EURUSD,M1: #36059575 2015.07.01 17:28:48 buy 0.01 EURUSD 1.10566 0.00000 1.11615 1.10560 -0.13 0.00 -0.04 Envelopes M30 31365
+0	17:29:00.027	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36059575; Time: 2015.07.01 17:28:49; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10566; Close Price: 1.10560; Take Profit: -0.04; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 17:28:49; Account Balance: 34.26 GBP; Account Equity: 34.79 GBP; Free Margin: 9.19 GBP; No of Orders: 3 (BUY/SELL: 2/2); Risk Ratio: 0.2
+2	17:29:00.615	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11109 tp: 0.00000 ok
+2	17:29:01.133	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10160 tp: 1.11615 ok
+0	17:29:39.756	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	17:29:40.113	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11104 tp: 0.00000 ok
+2	17:29:40.539	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10160 tp: 1.11616 ok
+2	17:30:29.015	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11095 tp: 0.00000 ok
+2	17:31:28.455	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11092 tp: 0.00000 ok
+2	17:32:45.199	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11089 tp: 0.00000 ok
+2	17:34:23.839	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11082 tp: 0.00000 ok
+2	17:37:20.821	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11072 tp: 0.00000 ok
+2	17:38:29.185	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11064 tp: 0.00000 ok
+2	17:40:43.340	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11063 tp: 0.00000 ok
+0	17:41:24.288	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	17:41:24.941	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10575 tp: 1.11616 ok
+0	17:42:49.129	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	17:42:49.515	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10576 tp: 1.11616 ok
+0	17:43:29.402	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	17:45:16.843	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11059 tp: 0.00000 ok
+2	17:45:17.694	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10578 tp: 1.11616 ok
+2	17:46:16.253	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11058 tp: 0.00000 ok
+2	17:46:17.035	31337 EURUSD,M1: modify #36059575 buy 0.01 EURUSD at 1.10566 sl: 1.10579 tp: 1.11616 ok
+2	17:48:01.951	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11054 tp: 0.00000 ok
+0	18:00:13.363	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10587; Bid: 1.10582; Spread: 5 points = 0.5 pips; 
+2	18:00:20.528	31337 EURUSD,M1: open #36060983 buy 0.01 EURUSD at 1.10598 tp: 1.11571 ok
+0	18:00:20.528	31337 EURUSD,M1: #36060983 2015.07.01 18:00:09 buy 0.01 EURUSD 1.10598 0.00000 1.11571 1.10591 -0.13 0.00 -0.04 Envelopes M30 31365
+0	18:00:20.528	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36060983; Time: 2015.07.01 18:00:09; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10598; Close Price: 1.10591; Take Profit: -0.04; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 18:00:09; Account Balance: 34.22 GBP; Account Equity: 34.53 GBP; Free Margin: 8.92 GBP; No of Orders: 3 (BUY/SELL: 2/2); Risk Ratio: 0.2
+2	18:00:20.787	31337 EURUSD,M1: modify #36060983 buy 0.01 EURUSD at 1.10598 sl: 1.10182 tp: 1.11571 ok
+0	18:00:20.787	31337 EURUSD,M1: == New hour: 18
+0	18:00:20.787	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 18 to default.
+0	18:00:20.852	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 38 (period: weekly)
+0	18:00:20.852	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to default for strategy: 18 to default.
+0	18:00:20.852	31337 EURUSD,M1: ApplyStrategyMultiplierFactor(): Setting multiplier factor to 0.5 for strategy: 38 (period: montly)
+0	18:02:08.625	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	18:02:09.051	31337 EURUSD,M1: modify #36060983 buy 0.01 EURUSD at 1.10598 sl: 1.10560 tp: 1.11571 ok
+0	18:09:17.145	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10578; Bid: 1.10574; Spread: 4 points = 0.4 pips; 
+2	18:09:17.762	31337 EURUSD,M1: open #36061426 buy 0.01 EURUSD at 1.10578 tp: 1.11570 ok
+0	18:09:17.762	31337 EURUSD,M1: #36061426 2015.07.01 18:09:06 buy 0.01 EURUSD 1.10578 0.00000 1.11570 1.10574 -0.13 0.00 -0.02 Envelopes M30 31365
+0	18:09:17.762	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36061426; Time: 2015.07.01 18:09:06; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10578; Close Price: 1.10574; Take Profit: -0.02; Stop Loss: 0; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 18:09:06; Account Balance: 33.84 GBP; Account Equity: 34.31 GBP; Free Margin: 8.71 GBP; No of Orders: 3 (BUY/SELL: 2/2); Risk Ratio: 0.2
+2	18:09:18.512	31337 EURUSD,M1: modify #36061426 buy 0.01 EURUSD at 1.10578 sl: 1.10174 tp: 1.11570 ok
+2	18:10:18.020	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11053 tp: 0.00000 ok
+2	18:11:49.643	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11047 tp: 0.00000 ok
+2	18:14:26.137	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11046 tp: 0.00000 ok
+2	18:16:43.707	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11044 tp: 0.00000 ok
+2	18:19:07.153	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11040 tp: 0.00000 ok
+2	18:19:47.386	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11033 tp: 0.00000 ok
+2	18:23:38.242	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11032 tp: 0.00000 ok
+2	18:25:27.284	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11029 tp: 0.00000 ok
+2	18:26:20.869	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11026 tp: 0.00000 ok
+2	18:27:41.342	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11023 tp: 0.00000 ok
+2	18:28:52.029	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11016 tp: 0.00000 ok
+2	18:31:24.829	31337 EURUSD,M1: modify #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11005 tp: 0.00000 ok
+0	18:31:24.861	31337 EURUSD,M1: 1
+2	18:31:25.579	31337 EURUSD,M1: close #36048873 sell 0.01 EURUSD at 1.10958 sl: 1.11005 at price 1.10469
+0	18:31:25.579	31337 EURUSD,M1: CloseOrder(): Closed order 36048873 with profit 3.28, reason: TaskRun(): 1; Order Details: Ticket:36048873; Time: 2015.07.01 18:31:14; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10958; Close Price: 1.10466; Take Profit: 3.15; Stop Loss: 1.1101; Swap: 0; Lot size: 0.01; 
+0	18:31:25.579	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (1 run, 0 failed (0 removed)).
+0	18:31:25.579	31337 EURUSD,M1: ActionExecute(): Account Details: Time: 2015.07.01 18:31:14; Account Balance: 34.12 GBP; Account Equity: 34.36 GBP; Free Margin: 21.54 GBP; No of Orders: 3 (BUY/SELL: 1/1); Risk Ratio: 0.2Stats: MACD M15: 33%, Bands M1: 33%, Envelopes M30: 33%, Fractals M1: 33%, Fractals M5: 33%, 
+Open Orders: 3 +1/-1 [0.02 lots] (other: 0)
+0	18:31:25.579	31337 EURUSD,M1: ActionExecute(): Action id: 1; reason: Account condition: 4, Market condition: 5, Action: 1 [34.37/31.11]
+0	18:54:03.346	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10557; Bid: 1.10552; Spread: 5 points = 0.5 pips; 
+2	18:54:03.962	31337 EURUSD,M1: open #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10953 ok
+0	18:54:03.962	31337 EURUSD,M1: #36063765 2015.07.01 18:53:52 sell 0.01 EURUSD 1.10549 1.10953 0.00000 1.10557 -0.13 0.00 -0.05 Bands M1 31358
+0	18:54:03.962	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36063765; Time: 2015.07.01 18:53:52; Comment: Bands M1; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10549; Close Price: 1.10557; Take Profit: -0.05; Stop Loss: 1.1095; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 18:53:52; Account Balance: 34.12 GBP; Account Equity: 34.17 GBP; Free Margin: 14.95 GBP; No of Orders: 2 (BUY/SELL: 1/2); Risk Ratio: 0.2
+2	18:54:20.331	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10951 tp: 0.00000 ok
+2	18:56:18.158	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10950 tp: 0.00000 ok
+0	19:02:30.061	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10486; Bid: 1.10484; Spread: 2 points = 0.2 pips; 
+0	19:05:51.061	31337 EURUSD,M1: ExecuteOrder(): OrderSend(): error = trade timeout
+0	19:05:51.061	31337 EURUSD,M1: ExecuteOrder(): Error: OrderSend(EURUSD, Buy, 0.01, 1.1049, 50, 1.1008, 1.1057, Fractals M1, 31374, 0, 255); Ask/Bid: 1.1049/1.1048
+0	19:05:51.061	31337 EURUSD,M1: ExecuteOrder(): Account Details: Time: 2015.07.01 19:02:18; Account Balance: 34.12 GBP; Account Equity: 34.64 GBP; Free Margin: 15.42 GBP; No of Orders: 3 (BUY/SELL: 1/2); Risk Ratio: 0.2
+0	19:09:12.061	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(): trade timeout
+0	19:09:12.061	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(36063765, 1.1055, 1.1095, 0, 0, 255); Ask/Bid: 1.1049/1.1048
+0	19:09:12.061	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	19:09:12.061	31337 EURUSD,M1: UpdateStats(): Big drop of 5.8 pips detected.
+0	19:09:12.061	31337 EURUSD,M1: == New hour: 19
+0	19:18:02.193	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	19:18:02.193	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(): common error
+0	19:18:02.193	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(36063765, 1.1055, 1.1095, 0, 0, 255); Ask/Bid: 1.1048/1.1047
+0	19:18:02.193	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	19:18:10.066	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	19:18:10.468	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10936 tp: 0.00000 ok
+0	19:18:10.593	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	19:18:48.233	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+0	19:18:48.233	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	19:19:19.417	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	19:19:20.483	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10935 tp: 0.00000 ok
+0	19:19:20.483	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (0 removed)).
+0	19:20:13.171	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	19:20:13.791	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10933 tp: 0.00000 ok
+0	19:20:13.791	31337 EURUSD,M1: TaskProcessList(): Processed 1 jobs (0 run, 1 failed (1 removed)).
+0	19:21:34.937	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders per type reached the limit (MaxOrdersPerType).
+2	19:24:57.114	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10929 tp: 0.00000 ok
+0	19:43:18.578	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10505; Bid: 1.10500; Spread: 5 points = 0.5 pips; 
+2	19:43:19.234	31337 EURUSD,M1: open #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10364 ok
+0	19:43:19.234	31337 EURUSD,M1: #36065823 2015.07.01 19:43:07 buy 0.01 EURUSD 1.10509 1.10364 0.00000 1.10501 -0.13 0.00 -0.05 SAR M5 31355
+0	19:43:19.234	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36065823; Time: 2015.07.01 19:43:07; Comment: SAR M5; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10509; Close Price: 1.10501; Take Profit: -0.05; Stop Loss: 1.1036; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 19:43:07; Account Balance: 34.12 GBP; Account Equity: 34.35 GBP; Free Margin: 2.31 GBP; No of Orders: 4 (BUY/SELL: 3/2); Risk Ratio: 0.2
+0	19:43:19.234	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	19:44:49.359	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10366 tp: 0.00000 ok
+2	19:45:21.703	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11066 tp: 0.00000 ok
+2	19:46:45.335	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11061 tp: 0.00000 ok
+2	19:46:46.174	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10367 tp: 0.00000 ok
+2	19:49:25.515	31337 EURUSD,M1: modify #36061426 buy 0.01 EURUSD at 1.10578 sl: 1.10481 tp: 1.11570 ok
+2	19:54:18.289	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11059 tp: 0.00000 ok
+2	19:54:19.125	31337 EURUSD,M1: modify #36061426 buy 0.01 EURUSD at 1.10578 sl: 1.10484 tp: 1.11570 ok
+2	19:54:19.867	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10368 tp: 0.00000 ok
+2	20:00:11.440	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11055 tp: 0.00000 ok
+0	20:00:13.118	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(): invalid stops
+0	20:00:13.118	31337 EURUSD,M1: UpdateTrailingStops(): Error: OrderModify(36061426, 1.1058, 1.1049, 1.1157, 0, 16711680); Ask/Bid: 1.1054/1.1054
+2	20:00:13.820	31337 EURUSD,M1: modify #36064307 buy 0.01 EURUSD at 1.10474 sl: 1.10084 tp: 1.10581 ok
+2	20:00:14.805	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10372 tp: 0.00000 ok
+0	20:00:45.112	31337 EURUSD,M1: == New hour: 20
+0	20:02:38.474	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	20:07:18.578	31337 EURUSD,M1: modify #36064307 buy 0.01 EURUSD at 1.10474 sl: 1.10084 tp: 1.10597 ok
+2	20:09:30.712	31337 EURUSD,M1: modify #36064307 buy 0.01 EURUSD at 1.10474 sl: 1.10086 tp: 1.10597 ok
+2	20:09:31.418	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10374 tp: 0.00000 ok
+2	20:11:22.418	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11053 tp: 0.00000 ok
+2	20:11:23.947	31337 EURUSD,M1: modify #36064307 buy 0.01 EURUSD at 1.10474 sl: 1.10092 tp: 1.10597 ok
+2	20:11:24.633	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10391 tp: 0.00000 ok
+2	20:16:22.159	31337 EURUSD,M1: modify #36064307 buy 0.01 EURUSD at 1.10474 sl: 1.10096 tp: 1.10597 ok
+2	20:16:24.282	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10397 tp: 0.00000 ok
+2	20:20:27.751	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11052 tp: 0.00000 ok
+2	20:20:28.611	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10402 tp: 0.00000 ok
+2	20:25:36.433	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10403 tp: 0.00000 ok
+0	20:27:12.754	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10545; Bid: 1.10544; Spread: 1 points = 0.1 pips; 
+2	20:27:13.898	31337 EURUSD,M1: open #36067440 buy 0.01 EURUSD at 1.10545 sl: 1.10144 tp: 1.10600 ok
+0	20:27:13.898	31337 EURUSD,M1: #36067440 2015.07.01 20:27:02 buy 0.01 EURUSD 1.10545 1.10144 1.10600 1.10545 -0.13 0.00 0.00 Fractals M1 31374
+0	20:27:13.898	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36067440; Time: 2015.07.01 20:27:01; Comment: Fractals M1; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10545; Close Price: 1.10545; Take Profit: 0; Stop Loss: 1.1014; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 20:27:01; Account Balance: 34.78 GBP; Account Equity: 34.90 GBP; Free Margin: 2.87 GBP; No of Orders: 4 (BUY/SELL: 3/2); Risk Ratio: 0.2
+2	20:28:16.798	31337 EURUSD,M1: modify #36067440 buy 0.01 EURUSD at 1.10545 sl: 1.10144 tp: 1.10603 ok
+0	20:34:15.634	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	20:34:16.396	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10403 tp: 1.10649 ok
+0	20:36:23.217	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10497; Bid: 1.10491; Spread: 6 points = 0.6 pips; 
+2	20:36:24.361	31337 EURUSD,M1: open #36067773 buy 0.01 EURUSD at 1.10500 sl: 1.10397 tp: 1.11419 ok
+0	20:36:24.361	31337 EURUSD,M1: #36067773 2015.07.01 20:36:12 buy 0.01 EURUSD 1.10500 1.10397 1.11419 1.10491 -0.13 0.00 -0.06 Envelopes M30 31365
+0	20:36:24.361	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36067773; Time: 2015.07.01 20:36:12; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10500; Close Price: 1.10491; Take Profit: -0.06; Stop Loss: 1.104; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 20:36:12; Account Balance: 34.05 GBP; Account Equity: 34.24 GBP; Free Margin: 2.21 GBP; No of Orders: 4 (BUY/SELL: 3/2); Risk Ratio: 0.2
+2	20:39:49.150	31337 EURUSD,M1: modify #36067773 buy 0.01 EURUSD at 1.10500 sl: 1.10398 tp: 1.11419 ok
+2	20:58:40.799	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10407 tp: 1.10649 ok
+2	20:58:41.253	31337 EURUSD,M1: modify #36067773 buy 0.01 EURUSD at 1.10500 sl: 1.10398 tp: 1.11422 ok
+2	21:00:09.730	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10407 tp: 1.10659 ok
+2	21:00:13.731	31337 EURUSD,M1: modify #36067773 buy 0.01 EURUSD at 1.10500 sl: 1.10398 tp: 1.11438 ok
+2	21:00:52.413	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11043 tp: 0.00000 ok
+0	21:00:52.413	31337 EURUSD,M1: == New hour: 21
+2	21:01:35.851	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11034 tp: 0.00000 ok
+2	21:01:37.908	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10414 tp: 1.10659 ok
+2	21:18:25.365	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11009 tp: 0.00000 ok
+0	21:28:30.179	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	21:28:30.836	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.11007 tp: 0.00000 ok
+2	21:28:31.420	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10418 tp: 1.10659 ok
+2	21:30:16.493	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10958 tp: 0.00000 ok
+2	21:30:17.041	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10421 tp: 1.10659 ok
+2	21:38:01.534	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10428 tp: 1.10659 ok
+2	21:45:28.896	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10914 tp: 0.00000 ok
+2	21:45:29.394	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10442 tp: 1.10659 ok
+2	21:54:16.404	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10445 tp: 1.10659 ok
+2	21:55:23.742	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10446 tp: 1.10659 ok
+2	22:00:09.973	31337 EURUSD,M1: modify #36067440 buy 0.01 EURUSD at 1.10545 sl: 1.10144 tp: 1.10617 ok
+2	22:00:15.859	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10879 tp: 0.00000 ok
+2	22:00:16.325	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10447 tp: 1.10659 ok
+0	22:00:16.325	31337 EURUSD,M1: == New hour: 22
+0	22:01:12.648	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	22:05:02.183	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10878 tp: 0.00000 ok
+2	22:05:03.201	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10448 tp: 1.10659 ok
+2	22:10:06.280	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10451 tp: 1.10659 ok
+2	22:11:54.520	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10876 tp: 0.00000 ok
+2	22:11:54.965	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10453 tp: 1.10659 ok
+2	22:17:31.713	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10837 tp: 0.00000 ok
+2	22:29:17.185	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10836 tp: 0.00000 ok
+2	22:29:18.897	31337 EURUSD,M1: modify #36065823 buy 0.01 EURUSD at 1.10509 sl: 1.10454 tp: 1.10659 ok
+2	22:32:10.104	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10810 tp: 0.00000 ok
+0	22:40:19.621	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+0	22:45:51.724	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	22:45:52.510	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10779 tp: 0.00000 ok
+2	22:50:26.716	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10776 tp: 0.00000 ok
+0	22:53:45.724	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10437; Bid: 1.10433; Spread: 4 points = 0.4 pips; 
+2	22:53:47.008	31337 EURUSD,M1: open #36072263 sell 0.01 EURUSD at 1.10430 sl: 1.10837 ok
+0	22:53:47.008	31337 EURUSD,M1: #36072263 2015.07.01 22:53:34 sell 0.01 EURUSD 1.10430 1.10837 0.00000 1.10437 -0.13 0.00 -0.05 SAR M30 31357
+0	22:53:47.077	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36072263; Time: 2015.07.01 22:53:34; Comment: SAR M30; Commision: -0.13; Symbol: EURUSD; Type: Sell; Expiration: 0; Open Price: 1.10430; Close Price: 1.10437; Take Profit: -0.05; Stop Loss: 1.1084; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 22:53:34; Account Balance: 33.53 GBP; Account Equity: 33.75 GBP; Free Margin: 1.72 GBP; No of Orders: 4 (BUY/SELL: 2/3); Risk Ratio: 0.2
+2	23:01:31.288	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10740 tp: 0.00000 ok
+2	23:01:36.225	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10921 tp: 0.00000 ok
+0	23:01:36.225	31337 EURUSD,M1: == New hour: 23
+0	23:02:31.509	31337 EURUSD,M1: ExecuteOrder():ExecuteOrder(): Maximum open and pending orders reached the limit (MaxOrders).
+2	23:02:32.653	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10920 tp: 0.00000 ok
+2	23:08:23.627	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10904 tp: 0.00000 ok
+2	23:11:03.103	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10901 tp: 0.00000 ok
+2	23:11:52.652	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10739 tp: 0.00000 ok
+2	23:11:53.402	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10896 tp: 0.00000 ok
+2	23:16:14.866	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10697 tp: 0.00000 ok
+2	23:16:15.409	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10895 tp: 0.00000 ok
+2	23:18:26.480	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10894 tp: 0.00000 ok
+2	23:23:51.937	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10890 tp: 0.00000 ok
+2	23:26:01.616	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10889 tp: 0.00000 ok
+2	23:29:45.273	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10887 tp: 0.00000 ok
+2	23:43:19.460	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10671 tp: 0.00000 ok
+2	23:43:20.589	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10875 tp: 0.00000 ok
+2	23:45:18.780	31337 EURUSD,M1: modify #36058316 sell 0.01 EURUSD at 1.10660 sl: 1.10661 tp: 0.00000 ok
+2	23:45:19.562	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10871 tp: 0.00000 ok
+2	23:48:37.095	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10868 tp: 0.00000 ok
+2	23:56:43.679	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10847 tp: 0.00000 ok
+0	23:58:42.860	31337 EURUSD,M1: ExecuteOrder(): MarketInfo: Symbol: EURUSD; Ask: 1.10380; Bid: 1.10375; Spread: 5 points = 0.5 pips; 
+2	23:58:43.857	31337 EURUSD,M1: open #36072564 buy 0.01 EURUSD at 1.10383 sl: 1.10193 tp: 1.11273 ok
+0	23:58:43.857	31337 EURUSD,M1: #36072564 2015.07.01 23:58:31 buy 0.01 EURUSD 1.10383 1.10193 1.11273 1.10375 -0.13 0.00 -0.05 Envelopes M30 31365
+0	23:58:43.857	31337 EURUSD,M1: ExecuteOrder(): Order Details: Ticket:36072564; Time: 2015.07.01 23:58:30; Comment: Envelopes M30; Commision: -0.13; Symbol: EURUSD; Type: Buy; Expiration: 0; Open Price: 1.10383; Close Price: 1.10375; Take Profit: -0.05; Stop Loss: 1.1019; Swap: 0; Lot size: 0.01; Account Details: Time: 2015.07.01 23:58:30; Account Balance: 32.71 GBP; Account Equity: 34.09 GBP; Free Margin: 2.06 GBP; No of Orders: 4 (BUY/SELL: 2/3); Risk Ratio: 0.2
+2	23:58:44.531	31337 EURUSD,M1: modify #36063765 sell 0.01 EURUSD at 1.10549 sl: 1.10844 tp: 0.00000 ok
